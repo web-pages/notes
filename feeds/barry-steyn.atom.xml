@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal</title><link href="http://cs/" rel="alternate"></link><link href="http://cs/feeds/barry-steyn.atom.xml" rel="self"></link><id>http://cs/</id><updated>2016-02-26T00:00:00-08:00</updated><entry><title>Climbing Stairs</title><link href="http://cs/climbing-stairs.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-02-26:climbing-stairs.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal</title><link href="http://doctrina.org/" rel="alternate"></link><link href="http://doctrina.org/feeds/barry-steyn.atom.xml" rel="self"></link><id>http://doctrina.org/</id><updated>2016-02-26T00:00:00-08:00</updated><entry><title>Climbing Stairs</title><link href="http://doctrina.org/climbing-stairs.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-02-26:climbing-stairs.html</id><summary type="html">
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;You are climbing a stair case. It takes &lt;span class="math"&gt;\(n\)&lt;/span&gt; steps to reach to the top.&lt;/p&gt;
 &lt;p&gt;Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?&lt;/p&gt;
@@ -107,7 +107,7 @@ a dynamic programming trick: Memoization.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="dynamic programming"></category><category term="recursion"></category><category term="memoization"></category></entry><entry><title>Find Two Values That Add To A Target In A Binary Tree</title><link href="http://cs/find-two-values-that-add-to-a-target-in-a-binary-tree.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-02-26:find-two-values-that-add-to-a-target-in-a-binary-tree.html</id><summary type="html">
+&lt;/script&gt;</summary><category term="dynamic programming"></category><category term="recursion"></category><category term="memoization"></category></entry><entry><title>Find Two Values That Add To A Target In A Binary Tree</title><link href="http://doctrina.org/find-two-values-that-add-to-a-target-in-a-binary-tree.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-02-26:find-two-values-that-add-to-a-target-in-a-binary-tree.html</id><summary type="html">
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Given a binary tree and a target value, find if there are two values that add
 up to the target.&lt;/p&gt;
@@ -208,7 +208,7 @@ the traversal.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Number Of Targets In A Sorted Array</title><link href="http://cs/number-of-targets-in-a-sorted-array.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-02-26:number-of-targets-in-a-sorted-array.html</id><summary type="html">
+&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Number Of Targets In A Sorted Array</title><link href="http://doctrina.org/number-of-targets-in-a-sorted-array.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-02-26:number-of-targets-in-a-sorted-array.html</id><summary type="html">
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Given a sorted array with numbers that can be potentially repeated, find the
 number of occurrences of a target.&lt;/p&gt;
@@ -327,7 +327,7 @@ Subtracting the two resulting indexes will give us the answer.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="binary search"></category></entry><entry><title>The Maximum Depth Of A Binary Tree</title><link href="http://cs/the-maximum-depth-of-a-binary-tree.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-02-26:the-maximum-depth-of-a-binary-tree.html</id><summary type="html">
+&lt;/script&gt;</summary><category term="binary search"></category></entry><entry><title>The Maximum Depth Of A Binary Tree</title><link href="http://doctrina.org/the-maximum-depth-of-a-binary-tree.html" rel="alternate"></link><updated>2016-02-26T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-02-26:the-maximum-depth-of-a-binary-tree.html</id><summary type="html">
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Given a binary tree, find it's maximum depth?&lt;/p&gt;
 &lt;h1 id="solution"&gt;Solution&lt;a class="headerlink" href="#solution" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
@@ -411,8 +411,8 @@ of each of it's children. Return the maximum of the two children to the parent
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Big O Notation</title><link href="http://cs/big-o-notation.html" rel="alternate"></link><updated>2016-02-03T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-02-03:big-o-notation.html</id><summary type="html">&lt;p&gt;&lt;/p&gt;&lt;div class="videobox"&gt;
-                &lt;iframe frameborder="0" height="390" src="https://www.youtube.com/embed/eNsKNfFUqFo" webkitallowfullscreen="" allowfullscreen="" width="640" mozallowfullscreen=""&gt;
+&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Big O Notation</title><link href="http://doctrina.org/big-o-notation.html" rel="alternate"></link><updated>2016-02-03T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-02-03:big-o-notation.html</id><summary type="html">&lt;p&gt;&lt;/p&gt;&lt;div class="videobox"&gt;
+                &lt;iframe src="https://www.youtube.com/embed/eNsKNfFUqFo" height="390" mozallowfullscreen="" width="640" frameborder="0" allowfullscreen="" webkitallowfullscreen=""&gt;
                 &lt;/iframe&gt;
             &lt;/div&gt;&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;Big O notation concerns functions &lt;strong&gt;defined on the positive integers&lt;/strong&gt;:
@@ -426,11 +426,11 @@ $$&lt;/div&gt;
 (&lt;em&gt;for all sufficiently large values of &lt;span class="math"&gt;\(n\)&lt;/span&gt;&lt;/em&gt;), &lt;span class="math"&gt;\(T(n)\)&lt;/span&gt; is bounded above
 by a &lt;em&gt;constant multiple&lt;/em&gt; of &lt;span class="math"&gt;\(f(n)\)&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id="mathematical-definition"&gt;Mathematical Definition&lt;a title="Permanent link" href="#mathematical-definition" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="mathematical-definition"&gt;Mathematical Definition&lt;a href="#mathematical-definition" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="math"&gt;$$
 T(n) = O(f(n)) \iff \exists \text{ constants } c, n_0 \text { s.t. } T(n) \leq c\cdot f(n)\hspace{2mm} \forall n \geq n_0
 $$&lt;/div&gt;
-&lt;h1 id="orders-of-common-functions"&gt;Orders Of Common functions&lt;a title="Permanent link" href="#orders-of-common-functions" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="orders-of-common-functions"&gt;Orders Of Common functions&lt;a href="#orders-of-common-functions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;This taken from the &lt;a href="https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions"&gt;wikipedia article&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;
 about Big O.&lt;/p&gt;
 &lt;p&gt;The following list is in ascending order of growth:&lt;/p&gt;
@@ -439,7 +439,7 @@ about Big O.&lt;/p&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(O(\log\log n)\)&lt;/span&gt; - &lt;strong&gt;double logarithmic&lt;/strong&gt; - interpolation search&lt;/li&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(O(\log n)\)&lt;/span&gt; - logarithm - &lt;a href="../binary-search.html"&gt;Binary Search&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id="examples"&gt;Examples&lt;a title="Permanent link" href="#examples" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="examples"&gt;Examples&lt;a href="#examples" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -493,7 +493,7 @@ about Big O.&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions&lt;/li&gt;&lt;li&gt;../binary-search.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary></entry><entry><title>Paint Houses</title><link href="http://cs/paint-houses.html" rel="alternate"></link><updated>2016-01-30T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-01-30:paint-houses.html</id><summary type="html">
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions&lt;/li&gt;&lt;li&gt;../binary-search.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary></entry><entry><title>Paint Houses</title><link href="http://doctrina.org/paint-houses.html" rel="alternate"></link><updated>2016-01-30T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-01-30:paint-houses.html</id><summary type="html">
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;There are a row of &lt;code&gt;n&lt;/code&gt; houses, each house can be painted with one of the three
 colors: &lt;strong&gt;red, blue or green&lt;/strong&gt;&lt;/p&gt;
@@ -603,11 +603,11 @@ and so on...&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="memoization"></category><category term="dynamic-programming"></category></entry><entry><title>Scalability Overview</title><link href="http://cs/scalability-overview.html" rel="alternate"></link><updated>2016-01-27T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2016-01-27:scalability-overview.html</id><summary type="html">
+&lt;/script&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="memoization"></category><category term="dynamic-programming"></category></entry><entry><title>Scalability Overview</title><link href="http://doctrina.org/scalability-overview.html" rel="alternate"></link><updated>2016-01-27T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-01-27:scalability-overview.html</id><summary type="html">
 &lt;p&gt;&lt;div class="videobox"&gt;
 &lt;iframe allowfullscreen="" frameborder="0" height="390" mozallowfullscreen="" src="https://www.youtube.com/embed/-W9F__D3oY4" webkitallowfullscreen="" width="640"&gt;
 &lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;</summary><category term="Scalability"></category></entry><entry><title>Gym Workout</title><link href="http://cs/gym-workout.html" rel="alternate"></link><updated>2015-09-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-09-02:gym-workout.html</id><summary type="html">
+&lt;/div&gt;&lt;/p&gt;</summary><category term="Scalability"></category></entry><entry><title>Gym Workout</title><link href="http://doctrina.org/gym-workout.html" rel="alternate"></link><updated>2015-09-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-09-02:gym-workout.html</id><summary type="html">
 &lt;h1 id="weeks-1-to-3"&gt;Weeks 1 to 3&lt;a class="headerlink" href="#weeks-1-to-3" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="day-1"&gt;Day 1&lt;a class="headerlink" href="#day-1" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
@@ -639,8 +639,8 @@ and so on...&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Glute Bridges&lt;/strong&gt; (weighted) 3x10&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Standing Calf Raises&lt;/strong&gt; 3x15&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Russian Twists&lt;/strong&gt; 3x30 (15 each side)&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="exercise"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Maximal Square</title><link href="http://cs/maximal-square.html" rel="alternate"></link><updated>2015-07-06T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-07-06:maximal-square.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/maximal-square/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
-&lt;h1 id="problem-statement"&gt;Problem Statement&lt;a title="Permanent link" href="#problem-statement" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ol&gt;</summary><category term="exercise"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Maximal Square</title><link href="http://doctrina.org/maximal-square.html" rel="alternate"></link><updated>2015-07-06T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-06:maximal-square.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/maximal-square/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
+&lt;h1 id="problem-statement"&gt;Problem Statement&lt;a href="#problem-statement" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Given a 2D binary matrix filled with 0's and 1's, find the largest square containing all 1's and return its area.&lt;/p&gt;
 &lt;p&gt;For example, given the following matrix:&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
@@ -653,19 +653,19 @@ and so on...&lt;/p&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;p&gt;Return 4.&lt;/p&gt;
-&lt;h3 id="clarifying-questions"&gt;Clarifying questions&lt;a title="Permanent link" href="#clarifying-questions" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="clarifying-questions"&gt;Clarifying questions&lt;a href="#clarifying-questions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;Q: How is the median calculated when there are an even amount of elements?&lt;br&gt; &lt;em&gt;A: It is the average of the two middle elements&lt;/em&gt;.&lt;br&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id="solututions"&gt;Solututions&lt;a title="Permanent link" href="#solututions" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="solututions"&gt;Solututions&lt;a href="#solututions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;All solutions assume a &lt;span class="math"&gt;\(n\times m\)&lt;/span&gt; matrix.&lt;/p&gt;
-&lt;h2 id="dynamic-programming"&gt;Dynamic Programming&lt;a title="Permanent link" href="#dynamic-programming" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="dynamic-programming"&gt;Dynamic Programming&lt;a href="#dynamic-programming" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Time: &lt;span class="math"&gt;\(O(n\cdot m)\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Space: &lt;span class="math"&gt;\(O(n\cdot m)\)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The idea is to dynamic programming... Mention Kadane algorithm (link to it)&lt;/p&gt;
-&lt;h2 id="code"&gt;Code&lt;a title="Permanent link" href="#code" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="code"&gt;Code&lt;a href="#code" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
  2
  3
@@ -756,12 +756,12 @@ and so on...&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/maximal-square/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="memoization"></category><category term="dynamic-programming"></category></entry><entry><title>Python Setup</title><link href="http://cs/python-setup.html" rel="alternate"></link><updated>2015-07-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-07-05:python-setup.html</id><summary type="html">&lt;h1 id="working-with-python"&gt;Working With Python&lt;a title="Permanent link" href="#working-with-python" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/maximal-square/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="memoization"></category><category term="dynamic-programming"></category></entry><entry><title>Python Setup</title><link href="http://doctrina.org/python-setup.html" rel="alternate"></link><updated>2015-07-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-05:python-setup.html</id><summary type="html">&lt;h1 id="working-with-python"&gt;Working With Python&lt;a href="#working-with-python" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;In order to work with python, use a virtual environment. This requires installing
 &lt;em&gt;virtualenv&lt;/em&gt; and &lt;em&gt;virtualenvwrapper&lt;/em&gt;. The latter gives extra commands to
 &lt;em&gt;virutalenv&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="setup-virtual-environments"&gt;Setup Virtual Environments&lt;a title="Permanent link" href="#setup-virtual-environments" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="install-distribute-and-pip"&gt;Install Distribute and Pip&lt;a title="Permanent link" href="#install-distribute-and-pip" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h2 id="setup-virtual-environments"&gt;Setup Virtual Environments&lt;a href="#setup-virtual-environments" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="install-distribute-and-pip"&gt;Install Distribute and Pip&lt;a href="#install-distribute-and-pip" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
 2
 3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;curl -O http://python-distribute.org/distribute_setup.py
@@ -769,13 +769,13 @@ sudo python distribute_setup.py
 sudo easy_install pip
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id="install-virtualenv-and-virutalenvwrapper"&gt;Install VirtualEnv And VirutalEnvwrapper&lt;a title="Permanent link" href="#install-virtualenv-and-virutalenvwrapper" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="install-virtualenv-and-virutalenvwrapper"&gt;Install VirtualEnv And VirutalEnvwrapper&lt;a href="#install-virtualenv-and-virutalenvwrapper" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
 2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;sudo pip install virtualenv
 sudo pip install virtualenvwrapper
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id="setup-virtualenv"&gt;Setup VirtualEnv&lt;a title="Permanent link" href="#setup-virtualenv" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="setup-virtualenv"&gt;Setup VirtualEnv&lt;a href="#setup-virtualenv" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
 2
 3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;export WORKON_HOME=~/.virtualenv&lt;/span&gt;
@@ -783,16 +783,16 @@ sudo pip install virtualenvwrapper
 &lt;span class="x"&gt;echo "export WORKON_HOME=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;WORKON_HOME&lt;/span&gt;&lt;span class="x"&gt;" &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id="setup-virtualenvwrapper"&gt;Setup VirtualEnvWrapper&lt;a title="Permanent link" href="#setup-virtualenvwrapper" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="setup-virtualenvwrapper"&gt;Setup VirtualEnvWrapper&lt;a href="#setup-virtualenvwrapper" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;echo "source /usr/local/bin/virtualenvwrapper.sh" &amp;gt;&amp;gt; ~/.bashrc
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h3 id="extra-tips-and-tricks"&gt;Extra tips and tricks:&lt;a title="Permanent link" href="#extra-tips-and-tricks" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id="ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory"&gt;Ensures that if pip creates an extra virtual environment, it is also placed in our WORKON_HOME directory:&lt;a title="Permanent link" href="#ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id="extra-tips-and-tricks"&gt;Extra tips and tricks:&lt;a href="#extra-tips-and-tricks" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory"&gt;Ensures that if pip creates an extra virtual environment, it is also placed in our WORKON_HOME directory:&lt;a href="#ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;echo "export PIP_VIRTUALENV_BASE=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;WORKON_HOME&lt;/span&gt;&lt;span class="x"&gt;" &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id="creating-virtual-environments"&gt;Creating Virtual Environments&lt;a title="Permanent link" href="#creating-virtual-environments" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="creating-virtual-environments"&gt;Creating Virtual Environments&lt;a href="#creating-virtual-environments" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Obtain the version of the python executable that is needed (if the defaults are not wanted):&lt;/li&gt;
 &lt;li&gt;Use the &lt;a href="https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes"&gt;deadsnakes&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; PPA to get the required version&lt;/li&gt;
@@ -808,31 +808,34 @@ sudo pip install virtualenvwrapper
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;mkvirutalenv -p /usr/bin/python2.6 env_name
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h1 id="quick-command-reference"&gt;Quick Command Reference&lt;a title="Permanent link" href="#quick-command-reference" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="quick-command-reference"&gt;Quick Command Reference&lt;a href="#quick-command-reference" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;lsvirtualenv&lt;/strong&gt; - lists all installed virtual environments.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;rmvirtualenv&lt;/strong&gt; - will remove a virtual environment.&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes&lt;/li&gt;&lt;li&gt;https://www.python.org/downloads/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="python"></category></entry><entry><title>Rabin-Karp Substring Search</title><link href="http://cs/rabin-karp-substring-search.html" rel="alternate"></link><updated>2015-07-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-07-05:rabin-karp-substring-search.html</id><summary type="html">&lt;p&gt;This article is a summary of the &lt;a href="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm"&gt;Rabin-Karp&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; section of the &lt;a href="https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/"&gt;topcoder introduction to string search&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/p&gt;
-&lt;h1 id="the-string-searchingmatching-problem"&gt;The String Searching/Matching Problem&lt;a title="Permanent link" href="#the-string-searchingmatching-problem" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h1 id="niave-method"&gt;Niave method&lt;a title="Permanent link" href="#niave-method" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h1 id="rabin-karp-algorithm"&gt;Rabin Karp Algorithm&lt;a title="Permanent link" href="#rabin-karp-algorithm" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm&lt;/li&gt;&lt;li&gt;https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="rolling hash"></category><category term="substring"></category><category term="topcoder"></category></entry><entry><title>Next Permutation</title><link href="http://cs/next-permutation.html" rel="alternate"></link><updated>2015-07-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-07-02:next-permutation.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/next-permutation/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
-&lt;h1 id="problem-statement"&gt;Problem Statement&lt;a title="Permanent link" href="#problem-statement" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes&lt;/li&gt;&lt;li&gt;https://www.python.org/downloads/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="python"></category></entry><entry><title>Rabin-Karp Substring Search</title><link href="http://doctrina.org/rabin-karp-substring-search.html" rel="alternate"></link><updated>2015-07-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-05:rabin-karp-substring-search.html</id><summary type="html">&lt;p&gt;This article is a summary of the &lt;a href="https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm"&gt;Rabin-Karp&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; section of the &lt;a href="https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/"&gt;topcoder introduction to string search&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id="the-string-searchingmatching-problem"&gt;The String Searching/Matching Problem&lt;a href="#the-string-searchingmatching-problem" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="niave-method"&gt;Niave method&lt;a href="#niave-method" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="rabin-karp-algorithm"&gt;Rabin Karp Algorithm&lt;a href="#rabin-karp-algorithm" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm&lt;/li&gt;&lt;li&gt;https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="rolling hash"></category><category term="substring"></category><category term="topcoder"></category></entry><entry><title>Next Permutation</title><link href="http://doctrina.org/next-permutation.html" rel="alternate"></link><updated>2015-07-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-02:next-permutation.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/next-permutation/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
+&lt;h1 id="problem-statement"&gt;Problem Statement&lt;a href="#problem-statement" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).&lt;/p&gt;
 &lt;p&gt;The replacement must be in-place, do not allocate extra memory. Here are some examples. Inputs are in the left-hand
 column and its corresponding outputs are in the right-hand column.&lt;/p&gt;
-&lt;div class="admonition pre"&gt;
-&lt;p&gt;1,2,3 → 1,3,2
+&lt;div class="admonition pre"&gt;&lt;/div&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;1,2,3 → 1,3,2
 3,2,1 → 1,2,3
-1,1,5 → 1,5,1.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id="solution"&gt;Solution&lt;a title="Permanent link" href="#solution" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="find-1st-non-increasing-number"&gt;Find 1st Non-Increasing Number&lt;a title="Permanent link" href="#find-1st-non-increasing-number" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+1,1,5 → 1,5,1.
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id="solution"&gt;Solution&lt;a href="#solution" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="find-1st-non-increasing-number"&gt;Find 1st Non-Increasing Number&lt;a href="#find-1st-non-increasing-number" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Time: &lt;span class="math"&gt;\(O(n)\)&lt;/span&gt;, where &lt;span class="math"&gt;\(n\)&lt;/span&gt; is the size of the sequence.&lt;/li&gt;
 &lt;li&gt;Space: &lt;span class="math"&gt;\(O(1)\)&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="code"&gt;Code&lt;a title="Permanent link" href="#code" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="code"&gt;Code&lt;a href="#code" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
  2
  3
@@ -862,7 +865,7 @@ column and its corresponding outputs are in the right-hand column.&lt;/p&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id="explanation"&gt;Explanation&lt;a title="Permanent link" href="#explanation" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="explanation"&gt;Explanation&lt;a href="#explanation" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;First, note that the sequence should be initially ordered. Assume an arbitrary
 sequence: 12653. It was assumed that this sequence was sorted, so the input
 would have been 12356. The algorithm would do the following to &lt;strong&gt;12653&lt;/strong&gt;:&lt;/p&gt;
@@ -929,15 +932,15 @@ would have been 12356. The algorithm would do the following to &lt;strong&gt;126
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/next-permutation/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="permutation"></category></entry><entry><title>Permutations</title><link href="http://cs/permutations.html" rel="alternate"></link><updated>2015-07-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-07-02:permutations.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a title="Permanent link" href="#introduction" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/next-permutation/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="permutation"></category></entry><entry><title>Permutations</title><link href="http://doctrina.org/permutations.html" rel="alternate"></link><updated>2015-07-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-02:permutations.html</id><summary type="html">&lt;h1 id="introduction"&gt;Introduction&lt;a href="#introduction" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;There are many ways to calculate permutations. &lt;a href="https://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)"&gt;Robert Sedgewick&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; wrote
 a survey paper in 1977 titled &lt;a href="pdfs/Permutation_Generation_Methods.pdf"&gt;Permutation Generation Methods&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; that is still very cited.
 The paper indicates that at that time, &lt;a href="https://en.wikipedia.org/wiki/Heap's_algorithm"&gt;Heap's algorithm&lt;/a&gt;&lt;sup class="print"&gt;L3&lt;/sup&gt;
 was the most effective algorithm for producing permutations.&lt;/p&gt;
-&lt;h1 id="time-efficiency"&gt;Time Efficiency&lt;a title="Permanent link" href="#time-efficiency" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="time-efficiency"&gt;Time Efficiency&lt;a href="#time-efficiency" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Iterating through permutations of a list of size &lt;span class="math"&gt;\(n\)&lt;/span&gt; will always be &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt;. Therefore
 even with todays computers, we cannot calculate large values of &lt;span class="math"&gt;\(n\)&lt;/span&gt;.&lt;/p&gt;
-&lt;h1 id="barrys-recursive-permutation-generator"&gt;Barry's Recursive Permutation Generator&lt;a title="Permanent link" href="#barrys-recursive-permutation-generator" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="barrys-recursive-permutation-generator"&gt;Barry's Recursive Permutation Generator&lt;a href="#barrys-recursive-permutation-generator" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;This algorithm is even worse than &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt;, it is: &lt;span class="math"&gt;\(O(n!\cdot n)\)&lt;/span&gt;&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
  2
@@ -984,17 +987,17 @@ even with todays computers, we cannot calculate large values of &lt;span class="
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id="advantages"&gt;Advantages&lt;a title="Permanent link" href="#advantages" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="advantages"&gt;Advantages&lt;a href="#advantages" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;I understand this method quite well.&lt;/li&gt;
 &lt;li&gt;It can produce permutations in lexical order (provided the list starts off sorted).&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="disadvantages"&gt;Disadvantages&lt;a title="Permanent link" href="#disadvantages" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="disadvantages"&gt;Disadvantages&lt;a href="#disadvantages" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;It is extremely inefficient in time, with &lt;span class="math"&gt;\(O(n!\cdot n)\)&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;It requires &lt;span class="math"&gt;\(O(n)\)&lt;/span&gt; space needed.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id="backtracking-with-exchanges"&gt;Backtracking With Exchanges&lt;a title="Permanent link" href="#backtracking-with-exchanges" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="backtracking-with-exchanges"&gt;Backtracking With Exchanges&lt;a href="#backtracking-with-exchanges" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;This algorithm is much simpler and is &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt;. It cannot not produce permutations
 in lexigraphical order. It is still not as efficient as Heap's algorithm due to
 there being a constant of 2 in the big-o, in fact, it is in reality &lt;span class="math"&gt;\(O(2\cdot n!)\)&lt;/span&gt;.
@@ -1040,17 +1043,17 @@ This makes a difference when we are dealing with &lt;span class="math"&gt;\(n!\)
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id="advantages_1"&gt;Advantages&lt;a title="Permanent link" href="#advantages_1" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="advantages_1"&gt;Advantages&lt;a href="#advantages_1" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;It is very simple to implement and write on a whiteboard.&lt;/li&gt;
 &lt;li&gt;It is time &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt; and space &lt;span class="math"&gt;\(O(1)\)&lt;/span&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="disadvantages_1"&gt;Disadvantages&lt;a title="Permanent link" href="#disadvantages_1" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="disadvantages_1"&gt;Disadvantages&lt;a href="#disadvantages_1" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Still not as efficient as Heap's algorithm&lt;/li&gt;
 &lt;li&gt;Cannot iterate in lexical order&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id="heaps-algorithm"&gt;Heap's algorithm&lt;a title="Permanent link" href="#heaps-algorithm" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="heaps-algorithm"&gt;Heap's algorithm&lt;a href="#heaps-algorithm" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Heap's permuation algorithm is very simple to implement&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
  2
@@ -1093,14 +1096,14 @@ This makes a difference when we are dealing with &lt;span class="math"&gt;\(n!\)
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id="advantages_2"&gt;Advantages&lt;a title="Permanent link" href="#advantages_2" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="advantages_2"&gt;Advantages&lt;a href="#advantages_2" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;It is very simple to implement and write on a whiteboard.&lt;/li&gt;
 &lt;li&gt;It is time &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt; and space &lt;span class="math"&gt;\(O(1)\)&lt;/span&gt;.&lt;/li&gt;
 &lt;li&gt;The constant for factor for &lt;span class="math"&gt;\(O(n!)\)&lt;/span&gt; is 1. This is a huge advantage when dealing
  with factorials.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="disadvantages_2"&gt;Disadvantages&lt;a title="Permanent link" href="#disadvantages_2" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="disadvantages_2"&gt;Disadvantages&lt;a href="#disadvantages_2" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Does not iterate in lexical order&lt;/li&gt;
 &lt;li&gt;Does not leave the state of the original list in the same order when finished.&lt;/li&gt;
@@ -1159,7 +1162,7 @@ This makes a difference when we are dealing with &lt;span class="math"&gt;\(n!\)
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)&lt;/li&gt;&lt;li&gt;pdfs/Permutation_Generation_Methods.pdf&lt;/li&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Heap's_algorithm&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="permutation"></category><category term="algorithms"></category></entry><entry><title>Primal Blueprint: Food To Avoid</title><link href="http://cs/primal-blueprint-food-to-avoid.html" rel="alternate"></link><updated>2015-06-29T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-06-29:primal-blueprint-food-to-avoid.html</id><summary type="html">
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Robert_Sedgewick_(computer_scientist)&lt;/li&gt;&lt;li&gt;pdfs/Permutation_Generation_Methods.pdf&lt;/li&gt;&lt;li&gt;https://en.wikipedia.org/wiki/Heap's_algorithm&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="permutation"></category><category term="algorithms"></category></entry><entry><title>Primal Blueprint: Food To Avoid</title><link href="http://doctrina.org/primal-blueprint-food-to-avoid.html" rel="alternate"></link><updated>2015-06-29T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-29:primal-blueprint-food-to-avoid.html</id><summary type="html">
 &lt;h1 id="the-primal-blueprint-what-food-to-avoid"&gt;The primal blueprint: What Food To Avoid&lt;a class="headerlink" href="#the-primal-blueprint-what-food-to-avoid" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="avoid-all-grains"&gt;Avoid All Grains&lt;a class="headerlink" href="#avoid-all-grains" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
@@ -1218,7 +1221,7 @@ to mammals, and need to be altered (cooked) for consumption.&lt;/p&gt;
 &lt;li&gt;Peas&lt;/li&gt;
 &lt;li&gt;Soy products&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Primal Blueprint: Food To Eat</title><link href="http://cs/primal-blueprint-food-to-eat.html" rel="alternate"></link><updated>2015-06-29T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-06-29:primal-blueprint-food-to-eat.html</id><summary type="html">&lt;h1 id="primal-blueprint-eating-pyramid"&gt;Primal Blueprint Eating Pyramid&lt;a href="#primal-blueprint-eating-pyramid" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Primal Blueprint: Food To Eat</title><link href="http://doctrina.org/primal-blueprint-food-to-eat.html" rel="alternate"></link><updated>2015-06-29T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-29:primal-blueprint-food-to-eat.html</id><summary type="html">&lt;h1 id="primal-blueprint-eating-pyramid"&gt;Primal Blueprint Eating Pyramid&lt;a href="#primal-blueprint-eating-pyramid" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img style="max-width: 60%" src="images/primal-blueprint-food-pyramid.png" alt="Primal Blueprint Food Pyramid"&gt;&lt;/p&gt;
 &lt;h1 id="meat-fowl-and-fish"&gt;Meat, Fowl and Fish&lt;a href="#meat-fowl-and-fish" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="fish"&gt;Fish&lt;a href="#fish" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -1336,7 +1339,7 @@ to mammals, and need to be altered (cooked) for consumption.&lt;/p&gt;
 &lt;h1 id="herbs-and-spices"&gt;Herbs And Spices&lt;a href="#herbs-and-spices" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;These are &lt;strong&gt;great&lt;/strong&gt; - &lt;span class="pelican-inline"&gt;eat as much as you want&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id="nuts-and-seeds"&gt;Nuts And Seeds&lt;a href="#nuts-and-seeds" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;Should be ground up and added to salads etc - but don't overdo it!&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://thepaleodiet.com/fruits-and-sugars/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-food-to-eat-1"&gt;A measure of how much fructose a particular fruit has &lt;a href="#sf-primal-blueprint-food-to-eat-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Gym Exercises</title><link href="http://cs/gym-exercises.html" rel="alternate"></link><updated>2015-06-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-06-09:gym-exercises.html</id><summary type="html">
+&lt;p&gt;Should be ground up and added to salads etc - but don't overdo it!&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://thepaleodiet.com/fruits-and-sugars/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-food-to-eat-1"&gt;A measure of how much fructose a particular fruit has &lt;a href="#sf-primal-blueprint-food-to-eat-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Gym Exercises</title><link href="http://doctrina.org/gym-exercises.html" rel="alternate"></link><updated>2015-06-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-09:gym-exercises.html</id><summary type="html">
 &lt;p&gt;&lt;img alt="Muscle Physiology" src="images/major_muscles_and_functions.jpg"/&gt;&lt;/p&gt;
 &lt;h1 id="lower-body"&gt;Lower Body&lt;a class="headerlink" href="#lower-body" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="deadlift"&gt;Deadlift&lt;a class="headerlink" href="#deadlift" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -1554,7 +1557,7 @@ to mammals, and need to be altered (cooked) for consumption.&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;h3 id="to-begin_17"&gt;To Begin&lt;a class="headerlink" href="#to-begin_17" title="Permanent link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;h3 id="movement_17"&gt;Movement&lt;a class="headerlink" href="#movement_17" title="Permanent link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id="avoid-this_17"&gt;Avoid This&lt;a class="headerlink" href="#avoid-this_17" title="Permanent link"&gt;&lt;/a&gt;&lt;/h3&gt;</summary><category term="exercise"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Primal Blueprint Eating Philosophy</title><link href="http://cs/primal-blueprint-eating-philosophy.html" rel="alternate"></link><updated>2015-06-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-06-09:primal-blueprint-eating-philosophy.html</id><summary type="html">&lt;h1 id="insulin"&gt;Insulin&lt;a href="#insulin" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h3 id="avoid-this_17"&gt;Avoid This&lt;a class="headerlink" href="#avoid-this_17" title="Permanent link"&gt;&lt;/a&gt;&lt;/h3&gt;</summary><category term="exercise"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Primal Blueprint Eating Philosophy</title><link href="http://doctrina.org/primal-blueprint-eating-philosophy.html" rel="alternate"></link><updated>2015-06-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-09:primal-blueprint-eating-philosophy.html</id><summary type="html">&lt;h1 id="insulin"&gt;Insulin&lt;a href="#insulin" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Insulin is vital for survival. Cell receptors use insulin as a key to unlock pores with the membrane of each cell. It's an elegant way to eliminate &lt;span class="pelican-inline"&gt;excess glucose from the bloodstream (which is highly toxic)&lt;/span&gt; which is then stored as &lt;a href="http://en.wikipedia.org/wiki/Glycogen"&gt;glycogen&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; (glycogen is used as fuel) for a later date.&lt;/p&gt;
 &lt;h2 id="excess-insulin"&gt;Excess Insulin&lt;a href="#excess-insulin" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Excessive inslulin is bad!&lt;/p&gt;
@@ -1805,7 +1808,7 @@ $$&lt;/div&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Glycogen&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Framingham_Heart_Study&lt;/li&gt;&lt;li&gt;http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Lipoprotein&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atherosclerosis&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-cholesterol-test-results/#axzz3ZB2yhrJh&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-advanced-cholesterol-test-results/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-1/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-2/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atkins_diet&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Nurses%27_Health_Study&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-3_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Saturated_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-6_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Trans_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-1"&gt;Excellent article: &lt;a href="http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/"&gt;Framingham Flip Flop&lt;/a&gt;&lt;sup class="print"&gt;L3&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-eating-philosophy-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-2"&gt;For example, the &lt;a href="http://en.wikipedia.org/wiki/Atkins_diet"&gt;Atkins Diet&lt;/a&gt;&lt;sup class="print"&gt;L10&lt;/sup&gt;. &lt;a href="#sf-primal-blueprint-eating-philosophy-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-3"&gt;They are actually called &lt;a href="http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH"&gt;Ketone Bodies&lt;/a&gt;&lt;sup class="print"&gt;L16&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-eating-philosophy-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>EncFS</title><link href="http://cs/encfs.html" rel="alternate"></link><updated>2015-06-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-06-02:encfs.html</id><summary type="html">&lt;h1 id="encfs"&gt;EncFS&lt;a href="#encfs" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Glycogen&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Framingham_Heart_Study&lt;/li&gt;&lt;li&gt;http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Lipoprotein&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atherosclerosis&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-cholesterol-test-results/#axzz3ZB2yhrJh&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-advanced-cholesterol-test-results/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-1/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-2/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atkins_diet&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Nurses%27_Health_Study&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-3_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Saturated_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-6_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Trans_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-1"&gt;Excellent article: &lt;a href="http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/"&gt;Framingham Flip Flop&lt;/a&gt;&lt;sup class="print"&gt;L3&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-eating-philosophy-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-2"&gt;For example, the &lt;a href="http://en.wikipedia.org/wiki/Atkins_diet"&gt;Atkins Diet&lt;/a&gt;&lt;sup class="print"&gt;L10&lt;/sup&gt;. &lt;a href="#sf-primal-blueprint-eating-philosophy-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-eating-philosophy-3"&gt;They are actually called &lt;a href="http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH"&gt;Ketone Bodies&lt;/a&gt;&lt;sup class="print"&gt;L16&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-eating-philosophy-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="chapter summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>EncFS</title><link href="http://doctrina.org/encfs.html" rel="alternate"></link><updated>2015-06-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-02:encfs.html</id><summary type="html">&lt;h1 id="encfs"&gt;EncFS&lt;a href="#encfs" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;a href="http://www.arg0.net/#!encfs/c1awt"&gt;EncFS&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;sup id="sf-encfs-1-back"&gt;&lt;a href="#sf-encfs-1" title="Wikipedia article:  http://en.wikipedia.org/wiki/EncFSL2" class="simple-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; is an encrypted FUSE file system. It
 integrates very well with dropbox allowing a local encrypted volume that will be
 replicated on the cloud. Unlike TrueCrypt, &lt;em&gt;encfs&lt;/em&gt; volumes are not a fixed size
@@ -1825,9 +1828,9 @@ and can therefore grow and shrink when needed.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Ubuntu community help - https://help.ubuntu.com/community/FolderEncryption&lt;/li&gt;
 &lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.arg0.net/#!encfs/c1awt&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/EncFS&lt;/li&gt;&lt;li&gt;http://imojito.com/encfs-mac-osx-10-10-yosemite.html&lt;/li&gt;&lt;li&gt;https://help.ubuntu.com/community/FolderEncryption#Automatically_Mounting_on_Startup&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-encfs-1"&gt;Wikipedia article:
- &lt;a href="http://en.wikipedia.org/wiki/EncFS"&gt;http://en.wikipedia.org/wiki/EncFS&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; &lt;a href="#sf-encfs-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="cryptography"></category></entry><entry><title>JavaScript</title><link href="http://cs/javascript.html" rel="alternate"></link><updated>2015-05-20T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-05-20:javascript.html</id><summary type="html">&lt;h1 id="javascript"&gt;JavaScript&lt;a title="Permanent link" href="#javascript" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="links"&gt;Links&lt;a title="Permanent link" href="#links" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id="language-features"&gt;Language Features&lt;a title="Permanent link" href="#language-features" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+ &lt;a href="http://en.wikipedia.org/wiki/EncFS"&gt;http://en.wikipedia.org/wiki/EncFS&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; &lt;a href="#sf-encfs-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="cryptography"></category></entry><entry><title>JavaScript</title><link href="http://doctrina.org/javascript.html" rel="alternate"></link><updated>2015-05-20T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-05-20:javascript.html</id><summary type="html">&lt;h1 id="javascript"&gt;JavaScript&lt;a href="#javascript" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="language-features"&gt;Language Features&lt;a href="#language-features" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"&gt;let&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"&gt;iterators and generators&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;ul&gt;
@@ -1841,38 +1844,38 @@ and can therefore grow and shrink when needed.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="explanations"&gt;Explanations&lt;a title="Permanent link" href="#explanations" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="explanations"&gt;Explanations&lt;a href="#explanations" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://medium.com/code-adventures/callbacks-vs-coroutines-174f1fe66127"&gt;Callbacks Vs Coroutines&lt;/a&gt;&lt;sup class="print"&gt;L7&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators"&gt;Solving Callbacks With Generators&lt;/a&gt;&lt;sup class="print"&gt;L8&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*&lt;/li&gt;&lt;li&gt;http://www.html5rocks.com/en/tutorials/es6/promises/&lt;/li&gt;&lt;li&gt;https://blog.domenic.me/youre-missing-the-point-of-promises/&lt;/li&gt;&lt;li&gt;https://medium.com/code-adventures/callbacks-vs-coroutines-174f1fe66127&lt;/li&gt;&lt;li&gt;http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="javascript"></category></entry><entry><title>Atom Editor</title><link href="http://cs/atom-editor.html" rel="alternate"></link><updated>2015-05-15T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-05-15:atom-editor.html</id><summary type="html">&lt;h1 id="atom-editor"&gt;Atom Editor&lt;a title="Permanent link" href="#atom-editor" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h1 id="installingupgrading"&gt;Installing/Upgrading&lt;a title="Permanent link" href="#installingupgrading" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield&lt;/li&gt;&lt;li&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*&lt;/li&gt;&lt;li&gt;http://www.html5rocks.com/en/tutorials/es6/promises/&lt;/li&gt;&lt;li&gt;https://blog.domenic.me/youre-missing-the-point-of-promises/&lt;/li&gt;&lt;li&gt;https://medium.com/code-adventures/callbacks-vs-coroutines-174f1fe66127&lt;/li&gt;&lt;li&gt;http://jlongster.com/A-Study-on-Solving-Callbacks-with-JavaScript-Generators&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="javascript"></category></entry><entry><title>Atom Editor</title><link href="http://doctrina.org/atom-editor.html" rel="alternate"></link><updated>2015-05-15T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-05-15:atom-editor.html</id><summary type="html">&lt;h1 id="atom-editor"&gt;Atom Editor&lt;a href="#atom-editor" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="installingupgrading"&gt;Installing/Upgrading&lt;a href="#installingupgrading" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;For linux, installing and upgrading are identical:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Go to the &lt;a href="https://github.com/atom/atom/releases"&gt;atom releases&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; site and download the latest &lt;code&gt;atom-amd64.deb&lt;/code&gt; file&lt;/li&gt;
 &lt;li&gt;Install/Upgrade by doing the following: &lt;code&gt;sudo dpkg -i atom-amd64.deb&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id="installing-plugins"&gt;Installing Plugins&lt;a title="Permanent link" href="#installing-plugins" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="installing-plugins"&gt;Installing Plugins&lt;a href="#installing-plugins" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;To install plugins (called packages in atom):&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Go to the &lt;code&gt;Edit&lt;/code&gt; drop down menu&lt;/li&gt;
 &lt;li&gt;Select &lt;code&gt;Preferences&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;On the &lt;em&gt;left side menu&lt;/em&gt;, select &lt;code&gt;Install&lt;/code&gt; (it is the last option)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Search and install the desired package.&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://github.com/atom/atom/releases&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="atom"></category><category term="IDE"></category><category term="editor"></category></entry><entry><title>Working With FPGA's</title><link href="http://cs/working-with-fpgas.html" rel="alternate"></link><updated>2015-05-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-05-12:working-with-fpgas.html</id><summary type="html">&lt;h1 id="pre-requisites"&gt;Pre-Requisites&lt;a title="Permanent link" href="#pre-requisites" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Search and install the desired package.&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://github.com/atom/atom/releases&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="atom"></category><category term="IDE"></category><category term="editor"></category></entry><entry><title>Working With FPGA's</title><link href="http://doctrina.org/working-with-fpgas.html" rel="alternate"></link><updated>2015-05-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-05-12:working-with-fpgas.html</id><summary type="html">&lt;h1 id="pre-requisites"&gt;Pre-Requisites&lt;a href="#pre-requisites" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://wl.altera.com/download/software/quartus-ii-we/12.1sp1"&gt;Quartus II web edition&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id="background"&gt;Background&lt;a title="Permanent link" href="#background" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="hardware"&gt;Hardware&lt;a title="Permanent link" href="#hardware" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 id="background"&gt;Background&lt;a href="#background" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="hardware"&gt;Hardware&lt;a href="#hardware" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Embedded Video Here&lt;/p&gt;
-&lt;h3 id="transistors"&gt;Transistors&lt;a title="Permanent link" href="#transistors" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id="logic-gates-and-or-not"&gt;Logic Gates: And, Or, Not&lt;a title="Permanent link" href="#logic-gates-and-or-not" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id="combinational-circuits"&gt;Combinational Circuits&lt;a title="Permanent link" href="#combinational-circuits" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="transistors"&gt;Transistors&lt;a href="#transistors" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="logic-gates-and-or-not"&gt;Logic Gates: And, Or, Not&lt;a href="#logic-gates-and-or-not" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="combinational-circuits"&gt;Combinational Circuits&lt;a href="#combinational-circuits" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Explanation of combinatorial circuits&lt;/p&gt;
-&lt;h4 id="adder"&gt;Adder&lt;a title="Permanent link" href="#adder" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id="multiplexor"&gt;Multiplexor&lt;a title="Permanent link" href="#multiplexor" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;h3 id="sequential-circuit"&gt;Sequential Circuit&lt;a title="Permanent link" href="#sequential-circuit" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="adder"&gt;Adder&lt;a href="#adder" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="multiplexor"&gt;Multiplexor&lt;a href="#multiplexor" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id="sequential-circuit"&gt;Sequential Circuit&lt;a href="#sequential-circuit" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;introduce two invertors connected back to back&lt;/p&gt;
@@ -1884,30 +1887,41 @@ and can therefore grow and shrink when needed.&lt;/p&gt;
 &lt;p&gt;D Latch&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="clock-cycle"&gt;Clock Cycle&lt;a title="Permanent link" href="#clock-cycle" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id="flip-flop"&gt;Flip Flop&lt;a title="Permanent link" href="#flip-flop" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h3 id="registers"&gt;Registers&lt;a title="Permanent link" href="#registers" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;h4 id="shift-registers"&gt;Shift Registers&lt;a title="Permanent link" href="#shift-registers" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;h4 id="finite-state-machines"&gt;Finite State Machines&lt;a title="Permanent link" href="#finite-state-machines" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;h3 id="video"&gt;Video&lt;a title="Permanent link" href="#video" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://wl.altera.com/download/software/quartus-ii-we/12.1sp1&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="fpga"></category></entry><entry><title>Sliding Window Maximum</title><link href="http://cs/sliding-window-maximum.html" rel="alternate"></link><updated>2015-05-04T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-05-04:sliding-window-maximum.html</id><summary type="html">
+&lt;h3 id="clock-cycle"&gt;Clock Cycle&lt;a href="#clock-cycle" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="flip-flop"&gt;Flip Flop&lt;a href="#flip-flop" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="registers"&gt;Registers&lt;a href="#registers" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="shift-registers"&gt;Shift Registers&lt;a href="#shift-registers" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="finite-state-machines"&gt;Finite State Machines&lt;a href="#finite-state-machines" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id="video"&gt;Video&lt;a href="#video" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://wl.altera.com/download/software/quartus-ii-we/12.1sp1&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="fpga"></category></entry><entry><title>Sliding Window Maximum</title><link href="http://doctrina.org/sliding-window-maximum.html" rel="alternate"></link><updated>2015-05-04T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-05-04:sliding-window-maximum.html</id><summary type="html">
 &lt;p&gt;A long array A[] is given to you. There is a sliding window of size w which is moving from the very left of the array to the very right. You can only see the w numbers in the window. Each time the sliding window moves rightwards by one position. Following is an example:&lt;/p&gt;
-&lt;div class="admonition pre"&gt;
-&lt;p&gt;The array is [1 3 -1 -3 5 3 6 7], and w is 3.&lt;/p&gt;
-&lt;p&gt;Window position                Max
+&lt;div class="admonition pre"&gt;&lt;/div&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;The array is [1 3 -1 -3 5 3 6 7], and w is 3.
+
+Window position                Max
 ---------------               -----
 [1  3  -1] -3  5  3  6  7       3
  1 [3  -1  -3] 5  3  6  7       3
  1  3 [-1  -3  5] 3  6  7       5
  1  3  -1 [-3  5  3] 6  7       5
  1  3  -1  -3 [5  3  6] 7       6
- 1  3  -1  -3  5 [3  6  7]      7&lt;/p&gt;
-&lt;/div&gt;
+ 1  3  -1  -3  5 [3  6  7]      7
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Input:&lt;/strong&gt; A long array A[], and a window width w&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Output:&lt;/strong&gt; An array B[], B[i] is the maximum value of from A[i] to A[i+w-1]&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Requirement:&lt;/strong&gt; Find a good optimal way to get B[i]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id="solutions"&gt;Solutions&lt;a class="headerlink" href="#solutions" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;</summary><category term="data structures"></category><category term="dequeue"></category><category term="doubly linkedlist"></category><category term="algorithms"></category><category term="leetcode"></category></entry><entry><title>Alfabeto</title><link href="http://cs/alfabeto.html" rel="alternate"></link><updated>2015-04-11T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-11:alfabeto.html</id><summary type="html">&lt;h2 id="a-ah"&gt;A - ah&lt;a class="headerlink" href="#a-ah" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 id="solutions"&gt;Solutions&lt;a class="headerlink" href="#solutions" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;</summary><category term="data structures"></category><category term="dequeue"></category><category term="doubly linkedlist"></category><category term="algorithms"></category><category term="leetcode"></category></entry><entry><title>Alfabeto</title><link href="http://doctrina.org/alfabeto.html" rel="alternate"></link><updated>2015-04-11T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-11:alfabeto.html</id><summary type="html">&lt;h2 id="a-ah"&gt;A - ah&lt;a class="headerlink" href="#a-ah" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="b-beh"&gt;B - beh&lt;a class="headerlink" href="#b-beh" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="c-theh"&gt;C - theh&lt;a class="headerlink" href="#c-theh" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="d-deh"&gt;D - deh&lt;a class="headerlink" href="#d-deh" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -1933,7 +1947,7 @@ and can therefore grow and shrink when needed.&lt;/p&gt;
 &lt;h2 id="w-oo-veh-dob-leh"&gt;W - oo-veh-dob-leh&lt;a class="headerlink" href="#w-oo-veh-dob-leh" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="x-eh-kees"&gt;X - eh-kees&lt;a class="headerlink" href="#x-eh-kees" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id="y-ee-gree-eh-ga"&gt;Y - ee-gree-eh-ga&lt;a class="headerlink" href="#y-ee-gree-eh-ga" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h2 id="z-theh-ta"&gt;Z - theh-ta&lt;a class="headerlink" href="#z-theh-ta" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;</summary><category term="pronounciation"></category></entry><entry><title>C++</title><link href="http://cs/C-Plus-Plus.html" rel="alternate"></link><updated>2015-04-08T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-08:C-Plus-Plus.html</id><summary type="html">&lt;h1 id="links"&gt;Links&lt;a title="Permanent link" href="#links" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="z-theh-ta"&gt;Z - theh-ta&lt;a class="headerlink" href="#z-theh-ta" title="Permanent link"&gt;&lt;/a&gt;&lt;/h2&gt;</summary><category term="pronounciation"></category></entry><entry><title>C++</title><link href="http://doctrina.org/C-Plus-Plus.html" rel="alternate"></link><updated>2015-04-08T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-08:C-Plus-Plus.html</id><summary type="html">&lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.cppsamples.com/"&gt;C++ Samples&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; - Amazing site with brilliant and insightful samples for C++&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.cplusplus.com/"&gt;C++ Reference&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; - Excellent C++ reference site.&lt;ul&gt;
@@ -1941,7 +1955,7 @@ and can therefore grow and shrink when needed.&lt;/p&gt;
 &lt;li&gt;&lt;a href="http://www.cplusplus.com/reference/clibrary/"&gt;C Library&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.cppsamples.com/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/reference/stl/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/reference/clibrary/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="c++"></category><category term="programming"></category></entry><entry><title>Imperative Vs Declarative</title><link href="http://cs/imperative-vs-declarative.html" rel="alternate"></link><updated>2015-04-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-05:imperative-vs-declarative.html</id><summary type="html">&lt;h1 id="definitions"&gt;Definitions&lt;a href="#definitions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.cppsamples.com/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/reference/stl/&lt;/li&gt;&lt;li&gt;http://www.cplusplus.com/reference/clibrary/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="c++"></category><category term="programming"></category></entry><entry><title>Imperative Vs Declarative</title><link href="http://doctrina.org/imperative-vs-declarative.html" rel="alternate"></link><updated>2015-04-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-05:imperative-vs-declarative.html</id><summary type="html">&lt;h1 id="definitions"&gt;Definitions&lt;a href="#definitions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="imperative"&gt;Imperative&lt;a href="#imperative" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Imperative programming&lt;/em&gt;: tells the “machine” how to do something, 
@@ -1986,7 +2000,7 @@ although a number of common definitions do exist:&lt;/p&gt;
 which arises, unpremeditated, in the brains of human beings. These are the 
 languages humans use to communicate. They are distinguished from constructed 
 and formal languages such as those used to program computers or to study
-logic &lt;a href="#sf-imperative-vs-declarative-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="compiler"></category><category term="computer science"></category></entry><entry><title>Machine Learning Week 1</title><link href="http://cs/machine-learning-week-1.html" rel="alternate"></link><updated>2015-04-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-05:machine-learning-week-1.html</id><summary type="html">&lt;h1 id="week-1"&gt;Week 1&lt;a class="headerlink" href="#week-1" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
+logic &lt;a href="#sf-imperative-vs-declarative-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="compiler"></category><category term="computer science"></category></entry><entry><title>Machine Learning Week 1</title><link href="http://doctrina.org/machine-learning-week-1.html" rel="alternate"></link><updated>2015-04-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-05:machine-learning-week-1.html</id><summary type="html">&lt;h1 id="week-1"&gt;Week 1&lt;a class="headerlink" href="#week-1" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;There are several types of machine learning algorithms:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Supervised&lt;/strong&gt;&lt;/li&gt;
@@ -1999,8 +2013,8 @@ logic &lt;a href="#sf-imperative-vs-declarative-1-back" class="simple-footnote-b
 &lt;ol&gt;
 &lt;li&gt;Regression - predict a real number output&lt;/li&gt;
 &lt;li&gt;Classification - a discrete valued prediction&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="machine learning"></category><category term="computer science"></category></entry><entry><title>Exchange Traded Funds</title><link href="http://cs/exchange-traded-funds.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:exchange-traded-funds.html</id><summary type="html">&lt;p&gt;&lt;/p&gt;&lt;div class="videobox"&gt;
-&lt;iframe frameborder="0" height="390" src="https://www.youtube.com/embed/eahR6DzTnN0" webkitallowfullscreen="" allowfullscreen="" width="640" mozallowfullscreen=""&gt;
+&lt;/ol&gt;</summary><category term="machine learning"></category><category term="computer science"></category></entry><entry><title>Exchange Traded Funds</title><link href="http://doctrina.org/exchange-traded-funds.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:exchange-traded-funds.html</id><summary type="html">&lt;p&gt;&lt;/p&gt;&lt;div class="videobox"&gt;
+&lt;iframe src="https://www.youtube.com/embed/eahR6DzTnN0" height="390" mozallowfullscreen="" width="640" frameborder="0" allowfullscreen="" webkitallowfullscreen=""&gt;
 &lt;/iframe&gt;
 &lt;/div&gt;&lt;p&gt;&lt;/p&gt;
 &lt;h1 id="definition"&gt;Definition&lt;a href="#definition" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
@@ -2021,7 +2035,7 @@ logic &lt;a href="#sf-imperative-vs-declarative-1-back" class="simple-footnote-b
 &lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Exchange-traded_fund"&gt;Wikipedia Entry&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.investopedia.com/terms/e/etf.asp&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Exchange-traded_fund&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-exchange-traded-funds-1"&gt;See &lt;a href="http://www.investopedia.com/terms/e/etf.asp"&gt;http://www.investopedia.com/terms/e/etf.asp&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-exchange-traded-funds-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="finance"></category><category term="etf"></category></entry><entry><title>Greetings</title><link href="http://cs/greetings.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:greetings.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;!Buenos días!&lt;/strong&gt; - Good morning&lt;/p&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.investopedia.com/terms/e/etf.asp&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Exchange-traded_fund&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-exchange-traded-funds-1"&gt;See &lt;a href="http://www.investopedia.com/terms/e/etf.asp"&gt;http://www.investopedia.com/terms/e/etf.asp&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-exchange-traded-funds-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="finance"></category><category term="etf"></category></entry><entry><title>Greetings</title><link href="http://doctrina.org/greetings.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:greetings.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;!Buenos días!&lt;/strong&gt; - Good morning&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;!Buenas tardes!&lt;/strong&gt; - Good afternoon&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;!Beunas noches!&lt;/strong&gt; - Good night&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;!Adios&lt;/strong&gt; - Goodbye&lt;/p&gt;
@@ -2042,7 +2056,7 @@ Hasta luego - see you later
 Hasta manana - see you tomorrow
 Hasta pronto - see you soon
 Hasta el dia de la... see you on...&lt;/p&gt;
-&lt;/div&gt;</summary><category term="expressions"></category></entry><entry><title>Interest</title><link href="http://cs/interest.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:interest.html</id><summary type="html"></summary><category term="finance"></category><category term="interest"></category></entry><entry><title>Personal Information</title><link href="http://cs/personal-information.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:personal-information.html</id><summary type="html"></summary><category term="expressions"></category></entry><entry><title>The best investment advice you'll never get</title><link href="http://cs/the-best-investment-advice-youll-never-get.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:the-best-investment-advice-youll-never-get.html</id><summary type="html">&lt;h1 id="the-best-investment-advice-youll-never-get"&gt;The best investment advice you'll never get&lt;a href="#the-best-investment-advice-youll-never-get" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;</summary><category term="expressions"></category></entry><entry><title>Interest</title><link href="http://doctrina.org/interest.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:interest.html</id><summary type="html"></summary><category term="finance"></category><category term="interest"></category></entry><entry><title>Personal Information</title><link href="http://doctrina.org/personal-information.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:personal-information.html</id><summary type="html"></summary><category term="expressions"></category></entry><entry><title>The best investment advice you'll never get</title><link href="http://doctrina.org/the-best-investment-advice-youll-never-get.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:the-best-investment-advice-youll-never-get.html</id><summary type="html">&lt;h1 id="the-best-investment-advice-youll-never-get"&gt;The best investment advice you'll never get&lt;a href="#the-best-investment-advice-youll-never-get" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;As Google’s historic August 2004 IPO approached, the company’s senior vice president, Jonathan Rosenberg, realized he was about to spawn hundreds of impetuous young multimillionaires. They would, he feared, become the prey of Wall Street brokers, financial advisers, and wealth managers, all offering their own get-even-richer investment schemes. Scores of them from firms like J.P. Morgan Chase, UBS, Morgan Stanley, and Presidio Financial Partners were already circling company headquarters in Mountain View with hopes of presenting their wares to some soon-to-be-very-wealthy new clients.&lt;/p&gt;
 &lt;p&gt;Rosenberg didn’t turn the suitors away; he simply placed them in a holding pattern. Then, to protect Google’s staff, he proposed a series of in-house investment teach-ins, to be held before the investment counselors were given a green light to land. Company founders Sergey Brin and Larry Page and CEO Eric Schmidt were excited by the idea and gave it the go-ahead.&lt;/p&gt;
 &lt;p&gt;One by one, some of the most revered names in investment theory were brought in to school a class of brilliant engineers, programmers, and cybergeeks on the fine art of personal investing, something few of them had thought much about. First to arrive was [&lt;em&gt;]Stanford University’s William (Bill) Sharpe, 1990 Nobel Laureate economist and professor emeritus of finance at the Graduate School of Business[&lt;/em&gt;]&lt;sup id="sf-the-best-investment-advice-youll-never-get-1-back"&gt;&lt;a href="#sf-the-best-investment-advice-youll-never-get-1" title="William SharpeL1" class="simple-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;. Sharpe drew a large and enthusiastic audience, which he could have wowed with a PowerPoint presentation on his “gradient method for asset allocation optimization” or his “returns-based style analysis for evaluating the performance of investment funds.” But he spared the young geniuses all that complexity and offered a simple formula instead. [&lt;em&gt;]“Don’t try to beat the market,” he said. Put your savings into some indexed mutual funds, which will make you just as much money (if not more) at much less cost by following the market’s natural ebb and flow, and get on with building Google[&lt;/em&gt;].&lt;/p&gt;
@@ -2174,7 +2188,7 @@ Hasta el dia de la... see you on...&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://en.wikipedia.org/wiki/William_F._Sharpe&lt;/li&gt;&lt;li&gt;https://www.google.ca/finance?q=vti&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-the-best-investment-advice-youll-never-get-1"&gt;&lt;a href="http://en.wikipedia.org/wiki/William_F._Sharpe"&gt;William Sharpe&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-the-best-investment-advice-youll-never-get-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-the-best-investment-advice-youll-never-get-2"&gt;&lt;a href="https://www.google.ca/finance?q=vti"&gt;VTI&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; &lt;a href="#sf-the-best-investment-advice-youll-never-get-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="finance"></category><category term="etf"></category></entry><entry><title>Vocabulary</title><link href="http://cs/vocabulary.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-03:vocabulary.html</id><summary type="html">&lt;div class="admonition border-box"&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://en.wikipedia.org/wiki/William_F._Sharpe&lt;/li&gt;&lt;li&gt;https://www.google.ca/finance?q=vti&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-the-best-investment-advice-youll-never-get-1"&gt;&lt;a href="http://en.wikipedia.org/wiki/William_F._Sharpe"&gt;William Sharpe&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-the-best-investment-advice-youll-never-get-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-the-best-investment-advice-youll-never-get-2"&gt;&lt;a href="https://www.google.ca/finance?q=vti"&gt;VTI&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; &lt;a href="#sf-the-best-investment-advice-youll-never-get-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="finance"></category><category term="etf"></category></entry><entry><title>Vocabulary</title><link href="http://doctrina.org/vocabulary.html" rel="alternate"></link><updated>2015-04-03T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-03:vocabulary.html</id><summary type="html">&lt;div class="admonition border-box"&gt;
 &lt;p class="admonition-title"&gt;4 Avril 2015&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Bien - good&lt;/li&gt;
@@ -2229,7 +2243,7 @@ Hasta el dia de la... see you on...&lt;/p&gt;
 &lt;li&gt;Bandera - flag&lt;/li&gt;
 &lt;li&gt;Tarea - homework&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="vocabulary"></category></entry><entry><title>Environment Variables</title><link href="http://cs/environment-variables.html" rel="alternate"></link><updated>2015-04-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-04-02:environment-variables.html</id><summary type="html">&lt;h1 id="environment-variables"&gt;Environment Variables&lt;a href="#environment-variables" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;</summary><category term="vocabulary"></category></entry><entry><title>Environment Variables</title><link href="http://doctrina.org/environment-variables.html" rel="alternate"></link><updated>2015-04-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-02:environment-variables.html</id><summary type="html">&lt;h1 id="environment-variables"&gt;Environment Variables&lt;a href="#environment-variables" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Environment variables are a set of dynamic named values that can affect the way running processes will behave on a computer.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -2254,8 +2268,8 @@ Hasta el dia de la... see you on...&lt;/p&gt;
 &lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Environment_variable"&gt;Wikipedia Entry For Environment Variables&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Environment_variable&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-environment-variables-1"&gt;See &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html"&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-environment-variables-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category></entry><entry><title>React</title><link href="http://cs/react.html" rel="alternate"></link><updated>2015-03-31T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-31:react.html</id><summary type="html">&lt;h1 id="reactjs"&gt;Reactjs&lt;a title="Permanent link" href="#reactjs" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h1 id="links"&gt;Links&lt;a title="Permanent link" href="#links" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Environment_variable&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-environment-variables-1"&gt;See &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html"&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-environment-variables-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category></entry><entry><title>React</title><link href="http://doctrina.org/react.html" rel="alternate"></link><updated>2015-03-31T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-31:react.html</id><summary type="html">&lt;h1 id="reactjs"&gt;Reactjs&lt;a href="#reactjs" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/enaqx/awesome-react"&gt;Tutorials&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;:&lt;ul&gt;
 &lt;li&gt;&lt;a href="http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/"&gt;A Comprehensive Guide To Building Apps With React&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
@@ -2266,7 +2280,7 @@ Hasta el dia de la... see you on...&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=-DX3vJiqxm4"&gt;The Secret Of React's Virtual DOM&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://github.com/enaqx/awesome-react&lt;/li&gt;&lt;li&gt;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&lt;/li&gt;&lt;li&gt;http://calendar.perfplanet.com/2013/diff/&lt;/li&gt;&lt;li&gt;https://www.youtube.com/watch?v=-DX3vJiqxm4&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="react"></category><category term="javascript"></category></entry><entry><title>Primal Blueprint</title><link href="http://cs/primal-blueprint.html" rel="alternate"></link><updated>2015-03-18T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-18:primal-blueprint.html</id><summary type="html">&lt;h1 id="ten-primal-blueprint-laws"&gt;Ten Primal Blueprint Laws&lt;a href="#ten-primal-blueprint-laws" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://github.com/enaqx/awesome-react&lt;/li&gt;&lt;li&gt;http://tylermcginnis.com/reactjs-tutorial-a-comprehensive-guide-to-building-apps-with-react/&lt;/li&gt;&lt;li&gt;http://calendar.perfplanet.com/2013/diff/&lt;/li&gt;&lt;li&gt;https://www.youtube.com/watch?v=-DX3vJiqxm4&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="react"></category><category term="javascript"></category></entry><entry><title>Primal Blueprint</title><link href="http://doctrina.org/primal-blueprint.html" rel="alternate"></link><updated>2015-03-18T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-18:primal-blueprint.html</id><summary type="html">&lt;h1 id="ten-primal-blueprint-laws"&gt;Ten Primal Blueprint Laws&lt;a href="#ten-primal-blueprint-laws" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;div class="admonition border-box"&gt;
 &lt;p class="admonition-title"&gt;10 Primal blueprint laws&lt;/p&gt;
 &lt;ol&gt;
@@ -2543,7 +2557,7 @@ $$&lt;/div&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.marksdailyapple.com/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Glycogen&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Framingham_Heart_Study&lt;/li&gt;&lt;li&gt;http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Lipoprotein&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atherosclerosis&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-cholesterol-test-results/#axzz3ZB2yhrJh&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-advanced-cholesterol-test-results/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-1/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-2/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atkins_diet&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Nurses%27_Health_Study&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-3_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Saturated_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-6_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Trans_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-1"&gt;Excellent article: &lt;a href="http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/"&gt;Framingham Flip Flop&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-2"&gt;For example, the &lt;a href="http://en.wikipedia.org/wiki/Atkins_diet"&gt;Atkins Diet&lt;/a&gt;&lt;sup class="print"&gt;L11&lt;/sup&gt;. &lt;a href="#sf-primal-blueprint-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-3"&gt;They are actually called &lt;a href="http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH"&gt;Ketone Bodies&lt;/a&gt;&lt;sup class="print"&gt;L17&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="book summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Git</title><link href="http://cs/git.html" rel="alternate"></link><updated>2015-03-16T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-16:git.html</id><summary type="html">&lt;h1 id="git"&gt;Git&lt;a href="#git" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.marksdailyapple.com/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Glycogen&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Framingham_Heart_Study&lt;/li&gt;&lt;li&gt;http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Lipoprotein&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atherosclerosis&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-cholesterol-test-results/#axzz3ZB2yhrJh&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/how-to-interpret-advanced-cholesterol-test-results/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-1/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://www.marksdailyapple.com/the-straight-dope-on-cholesterol-10-things-you-need-to-know-part-2/#axzz3ZB8x2c4p&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Atkins_diet&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Nurses%27_Health_Study&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-3_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Saturated_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Omega-6_fatty_acid&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Trans_fat&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-primal-blueprint-1"&gt;Excellent article: &lt;a href="http://www.proteinpower.com/drmike/cardiovascular-disease/framingham-flip-flop/"&gt;Framingham Flip Flop&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-2"&gt;For example, the &lt;a href="http://en.wikipedia.org/wiki/Atkins_diet"&gt;Atkins Diet&lt;/a&gt;&lt;sup class="print"&gt;L11&lt;/sup&gt;. &lt;a href="#sf-primal-blueprint-2-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;li id="sf-primal-blueprint-3"&gt;They are actually called &lt;a href="http://en.wikipedia.org/wiki/Ketone_bodies#Impact_upon_pH"&gt;Ketone Bodies&lt;/a&gt;&lt;sup class="print"&gt;L17&lt;/sup&gt; &lt;a href="#sf-primal-blueprint-3-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="book summary"></category><category term="diet"></category><category term="health"></category><category term="primal"></category></entry><entry><title>Git</title><link href="http://doctrina.org/git.html" rel="alternate"></link><updated>2015-03-16T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-16:git.html</id><summary type="html">&lt;h1 id="git"&gt;Git&lt;a href="#git" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;h2 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://git-scm.com/book/en/v2"&gt;Git Book&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; - The official Git book&lt;/li&gt;
@@ -2584,7 +2598,7 @@ $$&lt;/div&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;git rebase -i --autosquash ac5db87
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;p&gt;The rebase editor has been opened - just save and quit.&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://git-scm.com/book/en/v2&lt;/li&gt;&lt;li&gt;http://git-scm.com/blog&lt;/li&gt;&lt;li&gt;http://pcottle.github.io/learnGitBranching/&lt;/li&gt;&lt;li&gt;http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-git-1"&gt;&lt;a href="http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html"&gt;Source&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt; &lt;a href="#sf-git-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="git"></category><category term="devops"></category></entry><entry><title>Is A Binary Tree A Binary Search Tree</title><link href="http://cs/is-a-binary-tree-a-binary-search-tree.html" rel="alternate"></link><updated>2015-03-14T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-14:is-a-binary-tree-a-binary-search-tree.html</id><summary type="html">
+&lt;p&gt;The rebase editor has been opened - just save and quit.&lt;/p&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://git-scm.com/book/en/v2&lt;/li&gt;&lt;li&gt;http://git-scm.com/blog&lt;/li&gt;&lt;li&gt;http://pcottle.github.io/learnGitBranching/&lt;/li&gt;&lt;li&gt;http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-git-1"&gt;&lt;a href="http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html"&gt;Source&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt; &lt;a href="#sf-git-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="git"></category><category term="devops"></category></entry><entry><title>Is A Binary Tree A Binary Search Tree</title><link href="http://doctrina.org/is-a-binary-tree-a-binary-search-tree.html" rel="alternate"></link><updated>2015-03-14T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-14:is-a-binary-tree-a-binary-search-tree.html</id><summary type="html">
 &lt;p&gt;Given a binary tree, how can one determine if it is a binary search tree?&lt;/p&gt;
 &lt;h1 id="solutions"&gt;Solutions&lt;a class="headerlink" href="#solutions" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;The tree will consist of a root node, each node having two pointers to it's left and right children:&lt;/p&gt;
@@ -2721,8 +2735,8 @@ $$&lt;/div&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Docker</title><link href="http://cs/docker.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-12:docker.html</id><summary type="html">&lt;h1 id="docker-containers"&gt;Docker Containers&lt;a title="Permanent link" href="#docker-containers" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="links"&gt;Links&lt;a title="Permanent link" href="#links" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/script&gt;</summary><category term="binary search tree"></category><category term="binary tree"></category><category term="tree"></category><category term="graph"></category><category term="algorithms"></category></entry><entry><title>Docker</title><link href="http://doctrina.org/docker.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-12:docker.html</id><summary type="html">&lt;h1 id="docker-containers"&gt;Docker Containers&lt;a href="#docker-containers" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.docker.com/"&gt;Docker Website&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="https://docs.docker.com/introduction/understanding-docker/#inside-docker"&gt;Understanding Docker&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
@@ -2732,7 +2746,7 @@ $$&lt;/div&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=LNAzzHS1Rho"&gt;The Revolution Will Be Containerized&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt; Introductory Screencast&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.centurylinklabs.com/optimizing-docker-images/"&gt;Optimizing Docker Images&lt;/a&gt;&lt;sup class="print"&gt;L5&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="knowledge"&gt;Knowledge&lt;a title="Permanent link" href="#knowledge" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="knowledge"&gt;Knowledge&lt;a href="#knowledge" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/"&gt;Docker and the PID 1 zombie reaping problem&lt;/a&gt;&lt;sup class="print"&gt;L6&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;Why one should not use Phusion:&lt;ul&gt;
@@ -2743,12 +2757,12 @@ $$&lt;/div&gt;
 &lt;li&gt;&lt;a href="https://github.com/radial/docs/issues/1#issuecomment-45405751"&gt;Using Supervisor With Docker&lt;/a&gt;&lt;sup class="print"&gt;L8&lt;/sup&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces"&gt;Tutorial For Isolation With Linux Namespaces&lt;/a&gt;&lt;sup class="print"&gt;L9&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id="useful-docker-commands"&gt;Useful Docker Commands&lt;a title="Permanent link" href="#useful-docker-commands" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="containers"&gt;Containers&lt;a title="Permanent link" href="#containers" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 id="useful-docker-commands"&gt;Useful Docker Commands&lt;a href="#useful-docker-commands" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="containers"&gt;Containers&lt;a href="#containers" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Interactive container:&lt;br&gt;&lt;code&gt;sudo docker run -t -i &amp;lt;container&amp;gt; /bin/bash&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="images"&gt;Images&lt;a title="Permanent link" href="#images" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="images"&gt;Images&lt;a href="#images" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;List docker images on local host:&lt;br&gt;&lt;code&gt;docker images&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;List docker images in a tree:&lt;br&gt;&lt;code&gt;docker images --tree&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
@@ -2757,14 +2771,14 @@ $$&lt;/div&gt;
 &lt;li&gt;Download an image to local host:&lt;br&gt;&lt;code&gt;docker pull &amp;lt;image-name&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;Search for images on docker hub:&lt;br&gt;&lt;code&gt;docker search &amp;lt;search term&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="dockerfile"&gt;Dockerfile&lt;a title="Permanent link" href="#dockerfile" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id="dockerfile"&gt;Dockerfile&lt;a href="#dockerfile" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Build an image with Dockerfile:&lt;br&gt;&lt;code&gt;sudo docker build &amp;lt;path of Dockerfile&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://www.docker.com/&lt;/li&gt;&lt;li&gt;https://docs.docker.com/introduction/understanding-docker/#inside-docker&lt;/li&gt;&lt;li&gt;https://docs.docker.com/&lt;/li&gt;&lt;li&gt;https://www.youtube.com/watch?v=LNAzzHS1Rho&lt;/li&gt;&lt;li&gt;http://www.centurylinklabs.com/optimizing-docker-images/&lt;/li&gt;&lt;li&gt;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&lt;/li&gt;&lt;li&gt;https://groups.google.com/forum/#!topic/docker-dev/GkTgRh6j7eY&lt;/li&gt;&lt;li&gt;https://github.com/radial/docs/issues/1#issuecomment-45405751&lt;/li&gt;&lt;li&gt;http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="docker"></category><category term="containers"></category><category term="rcdevops"></category></entry><entry><title>Nginx</title><link href="http://cs/nginx.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-12:nginx.html</id><summary type="html">&lt;h1 id="links"&gt;Links&lt;a title="Permanent link" href="#links" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://www.docker.com/&lt;/li&gt;&lt;li&gt;https://docs.docker.com/introduction/understanding-docker/#inside-docker&lt;/li&gt;&lt;li&gt;https://docs.docker.com/&lt;/li&gt;&lt;li&gt;https://www.youtube.com/watch?v=LNAzzHS1Rho&lt;/li&gt;&lt;li&gt;http://www.centurylinklabs.com/optimizing-docker-images/&lt;/li&gt;&lt;li&gt;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&lt;/li&gt;&lt;li&gt;https://groups.google.com/forum/#!topic/docker-dev/GkTgRh6j7eY&lt;/li&gt;&lt;li&gt;https://github.com/radial/docs/issues/1#issuecomment-45405751&lt;/li&gt;&lt;li&gt;http://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="docker"></category><category term="containers"></category><category term="rcdevops"></category></entry><entry><title>Nginx</title><link href="http://doctrina.org/nginx.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-12:nginx.html</id><summary type="html">&lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.aosabook.org/en/nginx.html"&gt;Nginx Architecture&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.aosabook.org/en/nginx.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="nginx"></category><category term="devops"></category></entry><entry><title>Node/IO</title><link href="http://cs/nodeio.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-12:nodeio.html</id><summary type="html">&lt;h1 id="nodeio"&gt;Node/IO&lt;a title="Permanent link" href="#nodeio" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="language-features"&gt;Language Features&lt;a title="Permanent link" href="#language-features" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.aosabook.org/en/nginx.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="nginx"></category><category term="devops"></category></entry><entry><title>Node/IO</title><link href="http://doctrina.org/nodeio.html" rel="alternate"></link><updated>2015-03-12T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-12:nodeio.html</id><summary type="html">&lt;h1 id="nodeio"&gt;Node/IO&lt;a href="#nodeio" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="language-features"&gt;Language Features&lt;a href="#language-features" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;module.exports vs exports&lt;/strong&gt;:&lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.hacksparrow.com/node-js-exports-vs-module-exports.html"&gt;module.exports vs exports&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;ul&gt;
@@ -2774,7 +2788,7 @@ $$&lt;/div&gt;
 &lt;li&gt;&lt;a href="https://nodejs.org/docs/latest/api/modules.html#modules_module_exports"&gt;nodes documentation&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.hacksparrow.com/node-js-exports-vs-module-exports.html&lt;/li&gt;&lt;li&gt;https://nodejs.org/docs/latest/api/modules.html#modules_module_exports&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="nodejs"></category><category term="iojs"></category><category term="javascript"></category></entry><entry><title>The Median Element Of Two Sorted Arrays</title><link href="http://cs/the-median-element-of-two-sorted-arrays.html" rel="alternate"></link><updated>2015-03-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-09:the-median-element-of-two-sorted-arrays.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/median-of-two-sorted-arrays/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.hacksparrow.com/node-js-exports-vs-module-exports.html&lt;/li&gt;&lt;li&gt;https://nodejs.org/docs/latest/api/modules.html#modules_module_exports&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="nodejs"></category><category term="iojs"></category><category term="javascript"></category></entry><entry><title>The Median Element Of Two Sorted Arrays</title><link href="http://doctrina.org/the-median-element-of-two-sorted-arrays.html" rel="alternate"></link><updated>2015-03-09T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-09:the-median-element-of-two-sorted-arrays.html</id><summary type="html">&lt;p&gt;This is a &lt;a href="https://leetcode.com/problems/median-of-two-sorted-arrays/"&gt;LeetCode problem&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;.&lt;/p&gt;
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a href="#problem-statement" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;There are 2 sorted arrays A and B of size m and n respectively. Write an algorithm to find the median of the array obtained after merging the above 2 arrays.&lt;/p&gt;
 &lt;h3 id="clarifying-questions"&gt;Clarifying questions&lt;a href="#clarifying-questions" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
@@ -2999,9 +3013,9 @@ $$&lt;/div&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/median-of-two-sorted-arrays/&lt;/li&gt;&lt;li&gt;http://doctrina.org/Merge-Sort-And-Inversions.html&lt;/li&gt;&lt;li&gt;binary-search.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-the-median-element-of-two-sorted-arrays-1"&gt;If it is greater than &lt;span class="math"&gt;\((M-i)\)&lt;/span&gt; elements, then &lt;span class="math"&gt;\(A[i]\)&lt;/span&gt; is the &lt;span class="math"&gt;\((M+1)\)&lt;/span&gt;'th element &lt;a href="#sf-the-median-element-of-two-sorted-arrays-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="binary search"></category></entry><entry><title>Binary Search</title><link href="http://cs/binary-search.html" rel="alternate"></link><updated>2015-03-08T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:cs,2015-03-08:binary-search.html</id><summary type="html">&lt;p&gt;This article is a summary of the &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=binarySearch"&gt;topcoder binary search tutorials&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;/p&gt;
-&lt;h1 id="classic-binary-search"&gt;Classic Binary Search&lt;a title="Permanent link" href="#classic-binary-search" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id="binary-search-at-a-glance"&gt;Binary Search at a glance:&lt;a title="Permanent link" href="#binary-search-at-a-glance" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/script&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://leetcode.com/problems/median-of-two-sorted-arrays/&lt;/li&gt;&lt;li&gt;http://doctrina.org/Merge-Sort-And-Inversions.html&lt;/li&gt;&lt;li&gt;binary-search.html&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-the-median-element-of-two-sorted-arrays-1"&gt;If it is greater than &lt;span class="math"&gt;\((M-i)\)&lt;/span&gt; elements, then &lt;span class="math"&gt;\(A[i]\)&lt;/span&gt; is the &lt;span class="math"&gt;\((M+1)\)&lt;/span&gt;'th element &lt;a href="#sf-the-median-element-of-two-sorted-arrays-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="coding puzzle"></category><category term="leetcode"></category><category term="binary search"></category></entry><entry><title>Binary Search</title><link href="http://doctrina.org/binary-search.html" rel="alternate"></link><updated>2015-03-08T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-03-08:binary-search.html</id><summary type="html">&lt;p&gt;This article is a summary of the &lt;a href="http://community.topcoder.com/tc?module=Static&amp;amp;d1=tutorials&amp;amp;d2=binarySearch"&gt;topcoder binary search tutorials&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id="classic-binary-search"&gt;Classic Binary Search&lt;a href="#classic-binary-search" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="binary-search-at-a-glance"&gt;Binary Search at a glance:&lt;a href="#binary-search-at-a-glance" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Time Complexity&lt;/strong&gt;: &lt;span class="math"&gt;\(O(\log n)\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Space Complexity&lt;/strong&gt;: &lt;span class="math"&gt;\(O(1)\)&lt;/span&gt;&lt;/li&gt;
@@ -3011,7 +3025,7 @@ $$&lt;/div&gt;
 &lt;p&gt;At each step, the median value of the search space is compared:
  1. Since the input sequence is sorted, the search space can be halved
  2. By repetition, search space reduces to the sought value&lt;/p&gt;
-&lt;h2 id="algorithm"&gt;Algorithm&lt;a title="Permanent link" href="#algorithm" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="algorithm"&gt;Algorithm&lt;a href="#algorithm" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;To find a value in a sorted sequence with random access:&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt; 1
  2
@@ -3040,7 +3054,7 @@ $$&lt;/div&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h1 id="discrete-binary-search"&gt;Discrete Binary Search&lt;a title="Permanent link" href="#discrete-binary-search" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="discrete-binary-search"&gt;Discrete Binary Search&lt;a href="#discrete-binary-search" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",

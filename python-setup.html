@@ -17,16 +17,16 @@
 </title>
 
     <!-- Bootstrap Base CSS -->
-    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+    <link href="http://doctrina.org/theme/css/base.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+    <link href="http://doctrina.org/theme/css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
 
-<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="http://doctrina.org/theme/css/print.css" type="text/css" media="print" />
 </head>
 
 <body id="page-top">
@@ -35,12 +35,12 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
-                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <img alt="brand for doctrina" src="http://doctrina.org/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
                     <span style="padding-left: 0.5em;">Personal</span>
                 </a>
                 
                 <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
-<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+<img src="http://doctrina.org/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
                     Table Of Contents
@@ -136,12 +136,12 @@
 
 			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
 	<div class="article-content">
-		<h1 id="working-with-python">Working With Python<a title="Permanent link" href="#working-with-python" class="headerlink"></a></h1>
+		<h1 id="working-with-python">Working With Python<a href="#working-with-python" title="Permanent link" class="headerlink"></a></h1>
 <p>In order to work with python, use a virtual environment. This requires installing
 <em>virtualenv</em> and <em>virtualenvwrapper</em>. The latter gives extra commands to
 <em>virutalenv</em></p>
-<h2 id="setup-virtual-environments">Setup Virtual Environments<a title="Permanent link" href="#setup-virtual-environments" class="headerlink"></a></h2>
-<h3 id="install-distribute-and-pip">Install Distribute and Pip<a title="Permanent link" href="#install-distribute-and-pip" class="headerlink"></a></h3>
+<h2 id="setup-virtual-environments">Setup Virtual Environments<a href="#setup-virtual-environments" title="Permanent link" class="headerlink"></a></h2>
+<h3 id="install-distribute-and-pip">Install Distribute and Pip<a href="#install-distribute-and-pip" title="Permanent link" class="headerlink"></a></h3>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="highlight"><pre>curl -O http://python-distribute.org/distribute_setup.py
@@ -149,13 +149,13 @@ sudo python distribute_setup.py
 sudo easy_install pip
 </pre></div>
 </td></tr></tbody></table>
-<h3 id="install-virtualenv-and-virutalenvwrapper">Install VirtualEnv And VirutalEnvwrapper<a title="Permanent link" href="#install-virtualenv-and-virutalenvwrapper" class="headerlink"></a></h3>
+<h3 id="install-virtualenv-and-virutalenvwrapper">Install VirtualEnv And VirutalEnvwrapper<a href="#install-virtualenv-and-virutalenvwrapper" title="Permanent link" class="headerlink"></a></h3>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
 2</pre></div></td><td class="code"><div class="highlight"><pre>sudo pip install virtualenv
 sudo pip install virtualenvwrapper
 </pre></div>
 </td></tr></tbody></table>
-<h3 id="setup-virtualenv">Setup VirtualEnv<a title="Permanent link" href="#setup-virtualenv" class="headerlink"></a></h3>
+<h3 id="setup-virtualenv">Setup VirtualEnv<a href="#setup-virtualenv" title="Permanent link" class="headerlink"></a></h3>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
 3</pre></div></td><td class="code"><div class="highlight"><pre><span class="x">export WORKON_HOME=~/.virtualenv</span>
@@ -163,16 +163,16 @@ sudo pip install virtualenvwrapper
 <span class="x">echo "export WORKON_HOME=</span><span class="p">$</span><span class="nv">WORKON_HOME</span><span class="x">" &gt;&gt; ~/.bashrc</span>
 </pre></div>
 </td></tr></tbody></table>
-<h3 id="setup-virtualenvwrapper">Setup VirtualEnvWrapper<a title="Permanent link" href="#setup-virtualenvwrapper" class="headerlink"></a></h3>
+<h3 id="setup-virtualenvwrapper">Setup VirtualEnvWrapper<a href="#setup-virtualenvwrapper" title="Permanent link" class="headerlink"></a></h3>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>echo "source /usr/local/bin/virtualenvwrapper.sh" &gt;&gt; ~/.bashrc
 </pre></div>
 </td></tr></tbody></table>
-<h3 id="extra-tips-and-tricks">Extra tips and tricks:<a title="Permanent link" href="#extra-tips-and-tricks" class="headerlink"></a></h3>
-<h4 id="ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory">Ensures that if pip creates an extra virtual environment, it is also placed in our WORKON_HOME directory:<a title="Permanent link" href="#ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory" class="headerlink"></a></h4>
+<h3 id="extra-tips-and-tricks">Extra tips and tricks:<a href="#extra-tips-and-tricks" title="Permanent link" class="headerlink"></a></h3>
+<h4 id="ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory">Ensures that if pip creates an extra virtual environment, it is also placed in our WORKON_HOME directory:<a href="#ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory" title="Permanent link" class="headerlink"></a></h4>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span class="x">echo "export PIP_VIRTUALENV_BASE=</span><span class="p">$</span><span class="nv">WORKON_HOME</span><span class="x">" &gt;&gt; ~/.bashrc</span>
 </pre></div>
 </td></tr></tbody></table>
-<h2 id="creating-virtual-environments">Creating Virtual Environments<a title="Permanent link" href="#creating-virtual-environments" class="headerlink"></a></h2>
+<h2 id="creating-virtual-environments">Creating Virtual Environments<a href="#creating-virtual-environments" title="Permanent link" class="headerlink"></a></h2>
 <ol>
 <li>Obtain the version of the python executable that is needed (if the defaults are not wanted):</li>
 <li>Use the <a href="https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes">deadsnakes</a><sup class="print">L1</sup> PPA to get the required version</li>
@@ -188,7 +188,7 @@ sudo pip install virtualenvwrapper
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre>mkvirutalenv -p /usr/bin/python2.6 env_name
 </pre></div>
 </td></tr></tbody></table>
-<h1 id="quick-command-reference">Quick Command Reference<a title="Permanent link" href="#quick-command-reference" class="headerlink"></a></h1>
+<h1 id="quick-command-reference">Quick Command Reference<a href="#quick-command-reference" title="Permanent link" class="headerlink"></a></h1>
 <ul>
 <li><strong>lsvirtualenv</strong> - lists all installed virtual environments.</li>
 <li><strong>rmvirtualenv</strong> - will remove a virtual environment.</li>
@@ -229,8 +229,17 @@ sudo pip install virtualenvwrapper
 		$('#content div.article-content a[href^="http"').attr('target','_blank');
 	});
     </script>
-    <script src="http://cs/theme/js/main.js"></script>
+    <script src="http://doctrina.org/theme/js/main.js"></script>
     <!-- End JavaScript -->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-33789117-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
 </body>
 
 </html>

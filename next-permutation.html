@@ -17,16 +17,16 @@
 </title>
 
     <!-- Bootstrap Base CSS -->
-    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+    <link href="http://doctrina.org/theme/css/base.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+    <link href="http://doctrina.org/theme/css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
 
-<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="http://doctrina.org/theme/css/print.css" type="text/css" media="print" />
 </head>
 
 <body id="page-top">
@@ -35,12 +35,12 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
-                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <img alt="brand for doctrina" src="http://doctrina.org/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
                     <span style="padding-left: 0.5em;">Personal</span>
                 </a>
                 
                 <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
-<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+<img src="http://doctrina.org/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
                     Table Of Contents
@@ -123,23 +123,26 @@
 			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
 	<div class="article-content">
 		<p>This is a <a href="https://leetcode.com/problems/next-permutation/">LeetCode problem</a><sup class="print">L1</sup>.</p>
-<h1 id="problem-statement">Problem Statement<a title="Permanent link" href="#problem-statement" class="headerlink"></a></h1>
+<h1 id="problem-statement">Problem Statement<a href="#problem-statement" title="Permanent link" class="headerlink"></a></h1>
 <p>Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers.
 If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).</p>
 <p>The replacement must be in-place, do not allocate extra memory. Here are some examples. Inputs are in the left-hand
 column and its corresponding outputs are in the right-hand column.</p>
-<div class="admonition pre">
-<p>1,2,3 → 1,3,2
+<div class="admonition pre"></div>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre>1,2,3 → 1,3,2
 3,2,1 → 1,2,3
-1,1,5 → 1,5,1.</p>
-</div>
-<h1 id="solution">Solution<a title="Permanent link" href="#solution" class="headerlink"></a></h1>
-<h2 id="find-1st-non-increasing-number">Find 1st Non-Increasing Number<a title="Permanent link" href="#find-1st-non-increasing-number" class="headerlink"></a></h2>
+1,1,5 → 1,5,1.
+</pre></div>
+</td></tr></tbody></table>
+<h1 id="solution">Solution<a href="#solution" title="Permanent link" class="headerlink"></a></h1>
+<h2 id="find-1st-non-increasing-number">Find 1st Non-Increasing Number<a href="#find-1st-non-increasing-number" title="Permanent link" class="headerlink"></a></h2>
 <ul>
 <li>Time: <span class="math">\(O(n)\)</span>, where <span class="math">\(n\)</span> is the size of the sequence.</li>
 <li>Space: <span class="math">\(O(1)\)</span></li>
 </ul>
-<h3 id="code">Code<a title="Permanent link" href="#code" class="headerlink"></a></h3>
+<h3 id="code">Code<a href="#code" title="Permanent link" class="headerlink"></a></h3>
 <table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
  2
  3
@@ -169,7 +172,7 @@ column and its corresponding outputs are in the right-hand column.</p>
 <span class="p">}</span>
 </pre></div>
 </td></tr></tbody></table>
-<h2 id="explanation">Explanation<a title="Permanent link" href="#explanation" class="headerlink"></a></h2>
+<h2 id="explanation">Explanation<a href="#explanation" title="Permanent link" class="headerlink"></a></h2>
 <p>First, note that the sequence should be initially ordered. Assume an arbitrary
 sequence: 12653. It was assumed that this sequence was sorted, so the input
 would have been 12356. The algorithm would do the following to <strong>12653</strong>:</p>
@@ -273,8 +276,17 @@ would have been 12356. The algorithm would do the following to <strong>12653</st
 		$('#content div.article-content a[href^="http"').attr('target','_blank');
 	});
     </script>
-    <script src="http://cs/theme/js/main.js"></script>
+    <script src="http://doctrina.org/theme/js/main.js"></script>
     <!-- End JavaScript -->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-33789117-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
 </body>
 
 </html>

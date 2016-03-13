@@ -17,16 +17,16 @@
 </title>
 
     <!-- Bootstrap Base CSS -->
-    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+    <link href="http://doctrina.org/theme/css/base.css" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
-    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+    <link href="http://doctrina.org/theme/css/main.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
 
-<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="http://doctrina.org/theme/css/print.css" type="text/css" media="print" />
 </head>
 
 <body id="page-top">
@@ -35,7 +35,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand " href="/index.html#page-top">
-                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <img alt="brand for doctrina" src="http://doctrina.org/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
                     <span style="padding-left: 0.5em;">Personal</span>
                 </a>
                 
@@ -85,7 +85,7 @@
 			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-2 ">
 	<div class="article-content">
 		<p></p><div class="videobox">
-                <iframe frameborder="0" height="390" src="https://www.youtube.com/embed/eNsKNfFUqFo" webkitallowfullscreen="" allowfullscreen="" width="640" mozallowfullscreen="">
+                <iframe src="https://www.youtube.com/embed/eNsKNfFUqFo" height="390" mozallowfullscreen="" width="640" frameborder="0" allowfullscreen="" webkitallowfullscreen="">
                 </iframe>
             </div><p></p>
 <p>Big O notation concerns functions <strong>defined on the positive integers</strong>:
@@ -99,11 +99,11 @@ $$</div>
 (<em>for all sufficiently large values of <span class="math">\(n\)</span></em>), <span class="math">\(T(n)\)</span> is bounded above
 by a <em>constant multiple</em> of <span class="math">\(f(n)\)</span></p>
 </div>
-<h2 id="mathematical-definition">Mathematical Definition<a title="Permanent link" href="#mathematical-definition" class="headerlink"></a></h2>
+<h2 id="mathematical-definition">Mathematical Definition<a href="#mathematical-definition" title="Permanent link" class="headerlink"></a></h2>
 <div class="math">$$
 T(n) = O(f(n)) \iff \exists \text{ constants } c, n_0 \text { s.t. } T(n) \leq c\cdot f(n)\hspace{2mm} \forall n \geq n_0
 $$</div>
-<h1 id="orders-of-common-functions">Orders Of Common functions<a title="Permanent link" href="#orders-of-common-functions" class="headerlink"></a></h1>
+<h1 id="orders-of-common-functions">Orders Of Common functions<a href="#orders-of-common-functions" title="Permanent link" class="headerlink"></a></h1>
 <p>This taken from the <a href="https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions">wikipedia article</a><sup class="print">L1</sup>
 about Big O.</p>
 <p>The following list is in ascending order of growth:</p>
@@ -112,7 +112,7 @@ about Big O.</p>
 <li><span class="math">\(O(\log\log n)\)</span> - <strong>double logarithmic</strong> - interpolation search</li>
 <li><span class="math">\(O(\log n)\)</span> - logarithm - <a href="../binary-search.html">Binary Search</a><sup class="print">L2</sup></li>
 </ol>
-<h1 id="examples">Examples<a title="Permanent link" href="#examples" class="headerlink"></a></h1>
+<h1 id="examples">Examples<a href="#examples" title="Permanent link" class="headerlink"></a></h1>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -203,8 +203,17 @@ about Big O.</p>
 		$('#content div.article-content a[href^="http"').attr('target','_blank');
 	});
     </script>
-    <script src="http://cs/theme/js/main.js"></script>
+    <script src="http://doctrina.org/theme/js/main.js"></script>
     <!-- End JavaScript -->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-33789117-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
 </body>
 
 </html>
