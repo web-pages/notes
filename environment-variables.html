@@ -1,0 +1,179 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Presense Of Barry Steyn - Software Engineer, Entrepreneur">
+    <meta name="author" content="Barry Steyn">
+    <link rel="shortcut icon" href="theme/img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/img/apple-touch-icon-144-precomposed.png">
+
+    <title>Personal - 	Environment Variables
+</title>
+
+    <!-- Bootstrap Base CSS -->
+    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+</head>
+
+<body id="page-top">
+    <!-- Top Nav Bar -->
+    <nav id="navbar-top" class="navbar navbar-fixed-top navbar-offset-start " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
+                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <span style="padding-left: 0.5em;">Personal</span>
+                </a>
+                
+                <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
+<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
+                    Table Of Contents
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu">
+                        <div>
+                            <ul class="nav navbar-nav">
+<li class="visible-grid-float-breakpoint"><a href="/index.html">Home</a></li>                                <li><a href="category/sysadmin.html"><span>Sysadmins</span></a></li> 
+                                <li><a href="#comments"><span>Comments</span></a></li> 
+                                <li><a href="#footer"><span>Connect</span></a></li> 
+                            </ul>
+                        </div>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu-toc">
+	
+		<div class="visible-grid-float-breakpoint">
+					<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#environment-variables">Environment Variables</a></li>
+<li><a href="#common-environment-variables">Common Environment Variables</a></li>
+<li><a href="#links">Links</a></li>
+</ul>
+</div>
+
+		</div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Top Nav Bar -->
+
+    <!-- User Defined Sections -->
+<section class="title">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1><a href="" rel="bookmark" title="Permalink to Environment Variables">	Environment Variables
+</a></h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12 text-center metadata">
+					<ul class="center-list">
+						<li><b>Published</b>: 02  Apr  2015</li>
+					</ul>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-3  hidden-grid-float-breakpoint">
+					<nav id="toc-affix">
+								<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#environment-variables">Environment Variables</a></li>
+<li><a href="#common-environment-variables">Common Environment Variables</a></li>
+<li><a href="#links">Links</a></li>
+</ul>
+</div>
+
+					</nav>
+				</div>
+
+			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
+	<div class="article-content">
+		<h1 id="environment-variables">Environment Variables<a href="#environment-variables" title="Permanent link" class="headerlink"></a></h1>
+<blockquote>
+<p>Environment variables are a set of dynamic named values that can affect the way running processes will behave on a computer.</p>
+</blockquote>
+<ul>
+<li><code>printenv</code><br>Lists environment variables in the current shell process</li>
+<li><code>export ABC=XYZ</code><br>Creates environment variables ABC and sets it to XYZ. Using export means the variable will be available to all child processes</li>
+</ul>
+<h1 id="common-environment-variables">Common Environment Variables<a href="#common-environment-variables" title="Permanent link" class="headerlink"></a></h1>
+<ul>
+<li><code>SHELL</code>: This describes the shell that will be interpreting any commands you type in. In most cases, this will be bash by default, but other values can be set if you prefer other options.</li>
+<li><code>TERM</code>: This specifies the type of terminal to emulate when running the shell. Different hardware terminals can be emulated for different operating requirements<sup id="sf-environment-variables-1-back"><a href="#sf-environment-variables-1" title="See https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.htmlL1" class="simple-footnote">1</a></sup>.</li>
+<li><code>USER</code>: The current logged in user.</li>
+<li><code>PWD</code>: The current working directory.</li>
+<li><code>OLDPWD</code>: The previous working directory. This is kept by the shell in order to switch back to your previous directory by running cd -.</li>
+<li><code>LS_COLORS</code>: This defines color codes that are used to optionally add colored output to the ls command. This is used to distinguish different file types and provide more info to the user at a glance.</li>
+<li><code>MAIL</code>: The path to the current user's mailbox.</li>
+<li><code>PATH</code>: A list of directories that the system will check when looking for commands. When a user types in a command, the system will check directories in this order for the executable.</li>
+<li><code>LANG</code>: The current language and localization settings, including character encoding.</li>
+<li><code>HOME</code>: The current user's home directory.</li>
+<li><code>_</code>: The most recent previously executed command.</li>
+</ul>
+<h1 id="links">Links<a href="#links" title="Permanent link" class="headerlink"></a></h1>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Environment_variable">Wikipedia Entry For Environment Variables</a><sup class="print">L2</sup></li>
+</ul><h2 class="print">Links</h2><div style="margin-left: 2.0em;" class="print"><ol class="print-links"><li>https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html</li><li>http://en.wikipedia.org/wiki/Environment_variable</li></ol></div><ol class="simple-footnotes"><li id="sf-environment-variables-1">See <a href="https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html">https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html</a><sup class="print">L1</sup> <a href="#sf-environment-variables-1-back" class="simple-footnote-back">↩</a></li></ol>
+	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<section class="text-center footer">
+	<div>
+	    <p>&copy; <script>document.write(new Date().getFullYear());</script> Barry Steyn. This Website Is Private, Meant Only For The Author.
+	</div>
+</section>
+<!-- End Footer -->
+    <!-- End Sections -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var scrollspies = {};
+        scrollspies.body = {
+            'target': '#navigation-menu'
+        };
+
+		//Do not remove navbar-offset-start class
+	var navbarOffset = false;
+
+	//Scrollspy object
+    scrollspies.body = {
+        'target': '.toc'
+    };
+
+
+	$(function() {
+		$('#content div.article-content a[href^="http"').attr('target','_blank');
+	});
+    </script>
+    <script src="http://cs/theme/js/main.js"></script>
+    <!-- End JavaScript -->
+</body>
+
+</html>

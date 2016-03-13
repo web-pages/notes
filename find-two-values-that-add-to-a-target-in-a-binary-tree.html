@@ -1,0 +1,267 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Presense Of Barry Steyn - Software Engineer, Entrepreneur">
+    <meta name="author" content="Barry Steyn">
+    <link rel="shortcut icon" href="theme/img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/img/apple-touch-icon-144-precomposed.png">
+
+    <title>Personal - 	Find Two Values That Add To A Target In A Binary Tree
+</title>
+
+    <!-- Bootstrap Base CSS -->
+    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+</head>
+
+<body id="page-top">
+    <!-- Top Nav Bar -->
+    <nav id="navbar-top" class="navbar navbar-fixed-top navbar-offset-start " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
+                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <span style="padding-left: 0.5em;">Personal</span>
+                </a>
+                
+                <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
+<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
+                    Table Of Contents
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu">
+                        <div>
+                            <ul class="nav navbar-nav">
+<li class="visible-grid-float-breakpoint"><a href="/index.html">Home</a></li>                                <li><a href="category/algorithm.html"><span>Algorithms</span></a></li> 
+                                <li><a href="#comments"><span>Comments</span></a></li> 
+                                <li><a href="#footer"><span>Connect</span></a></li> 
+                            </ul>
+                        </div>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu-toc">
+	
+		<div class="visible-grid-float-breakpoint">
+					<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#problem-statement">Problem Statement</a></li>
+<li><a href="#solutions">Solutions</a><ul>
+<li><a href="#no-extra-space">No Extra Space</a></li>
+<li><a href="#use-a-hash-table">Use A Hash Table</a><ul>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+		</div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Top Nav Bar -->
+
+    <!-- User Defined Sections -->
+<section class="title">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1><a href="" rel="bookmark" title="Permalink to Find Two Values That Add To A Target In A Binary Tree">	Find Two Values That Add To A Target In A Binary Tree
+</a></h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12 text-center metadata">
+					<ul class="center-list">
+						<li><b>Published</b>: 26  Feb  2016</li>
+					</ul>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-3  hidden-grid-float-breakpoint">
+					<nav id="toc-affix">
+								<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#problem-statement">Problem Statement</a></li>
+<li><a href="#solutions">Solutions</a><ul>
+<li><a href="#no-extra-space">No Extra Space</a></li>
+<li><a href="#use-a-hash-table">Use A Hash Table</a><ul>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+					</nav>
+				</div>
+
+			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
+	<div class="article-content">
+		
+<h1 id="problem-statement">Problem Statement<a class="headerlink" href="#problem-statement" title="Permanent link"></a></h1>
+<p>Given a binary tree and a target value, find if there are two values that add
+up to the target.</p>
+<h1 id="solutions">Solutions<a class="headerlink" href="#solutions" title="Permanent link"></a></h1>
+<p>Assume that there are <span class="math">\(n\)</span> nodes in the tree.</p>
+<h2 id="no-extra-space">No Extra Space<a class="headerlink" href="#no-extra-space" title="Permanent link"></a></h2>
+<p>If this is to be accomplished without using any extra space, then the solution
+would be quadratic. This is because the binary tree must be traversed, and each
+value in the tree would launch another search for a corresponding value that
+adds to the target.</p>
+<ul>
+<li>Time: <span class="math">\(O(n^2)\)</span></li>
+<li>Space: <span class="math">\(O(1)\)</span></li>
+</ul>
+<h2 id="use-a-hash-table">Use A Hash Table<a class="headerlink" href="#use-a-hash-table" title="Permanent link"></a></h2>
+<p>Each node of the binary tree would be examined. Assuming the node has value
+<span class="math">\(x\)</span>, we would then search for the value <span class="math">\(target-x\)</span> in the hash table. If this
+value is not present, then insert the current node into the hash table and continue
+the traversal.</p>
+<ul>
+<li>Time: <span class="math">\(O(n)\)</span></li>
+<li>Space: <span class="math">\(O(n)\)</span></li>
+</ul>
+<h3 id="code">Code<a class="headerlink" href="#code" title="Permanent link"></a></h3>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span class="n">unordered_map</span><span class="o">&lt;</span><span class="kt">int</span><span class="p">,</span> <span class="kt">bool</span><span class="o">&gt;</span> <span class="n">hash</span><span class="p">;</span>
+<span class="kt">bool</span> <span class="nf">findValues</span><span class="p">(</span><span class="kt">int</span> <span class="n">target</span><span class="p">,</span> <span class="n">Tree</span><span class="o">*</span> <span class="n">root</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">root</span><span class="p">)</span> <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
+  <span class="kt">int</span> <span class="n">search</span> <span class="o">=</span> <span class="n">target</span> <span class="o">-</span> <span class="n">root</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">;</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">hash</span><span class="p">[</span><span class="n">search</span><span class="p">]</span> <span class="o">==</span> <span class="nb">true</span><span class="p">)</span> <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+  <span class="n">hash</span><span class="p">[</span><span class="n">root</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+  <span class="k">return</span> <span class="p">(</span>
+    <span class="n">findValues</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">root</span><span class="o">-&gt;</span><span class="n">left</span><span class="p">)</span> <span class="o">||</span>
+    <span class="n">findValues</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="n">root</span><span class="o">-&gt;</span><span class="n">right</span><span class="p">)</span>
+    <span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></table>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "true";
+
+    if (true) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: '[math]'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<section class="text-center footer">
+	<div>
+	    <p>&copy; <script>document.write(new Date().getFullYear());</script> Barry Steyn. This Website Is Private, Meant Only For The Author.
+	</div>
+</section>
+<!-- End Footer -->
+    <!-- End Sections -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var scrollspies = {};
+        scrollspies.body = {
+            'target': '#navigation-menu'
+        };
+
+		//Do not remove navbar-offset-start class
+	var navbarOffset = false;
+
+	//Scrollspy object
+    scrollspies.body = {
+        'target': '.toc'
+    };
+
+
+	$(function() {
+		$('#content div.article-content a[href^="http"').attr('target','_blank');
+	});
+    </script>
+    <script src="http://cs/theme/js/main.js"></script>
+    <!-- End JavaScript -->
+</body>
+
+</html>

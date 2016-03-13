@@ -1,0 +1,283 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Presense Of Barry Steyn - Software Engineer, Entrepreneur">
+    <meta name="author" content="Barry Steyn">
+    <link rel="shortcut icon" href="theme/img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/img/apple-touch-icon-144-precomposed.png">
+
+    <title>Personal - 	Study Plan
+</title>
+
+    <!-- Bootstrap Base CSS -->
+    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+</head>
+
+<body id="page-top">
+    <!-- Top Nav Bar -->
+    <nav id="navbar-top" class="navbar navbar-fixed-top navbar-offset-start " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
+                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <span style="padding-left: 0.5em;">Personal</span>
+                </a>
+                
+                <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
+<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
+                    Table Of Contents
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu">
+                        <div>
+                            <ul class="nav navbar-nav">
+<li class="visible-grid-float-breakpoint"><a href="/index.html">Home</a></li>                                <li><a href="category/pages.html"><span>page</span></a></li> 
+                                <li><a href="#comments"><span>Comments</span></a></li> 
+                                <li><a href="#footer"><span>Connect</span></a></li> 
+                            </ul>
+                        </div>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu-toc">
+	
+		<div class="visible-grid-float-breakpoint">
+					<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#problem-statement">Problem Statement</a><ul>
+<li><a href="#clarifying-questions">Clarifying questions</a></li>
+</ul>
+</li>
+<li><a href="#solututions">Solututions</a><ul>
+<li><a href="#dynamic-programming">Dynamic Programming</a></li>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+		</div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Top Nav Bar -->
+
+    <!-- User Defined Sections -->
+<section class="title">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1><a href="" rel="bookmark" title="Permalink to Study Plan">	Study Plan
+</a></h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12 text-center metadata">
+					<ul class="center-list">
+						<li><b>Published</b>: 03  Apr  2015</li>
+					</ul>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-3  hidden-grid-float-breakpoint">
+					<nav id="toc-affix">
+								<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#problem-statement">Problem Statement</a><ul>
+<li><a href="#clarifying-questions">Clarifying questions</a></li>
+</ul>
+</li>
+<li><a href="#solututions">Solututions</a><ul>
+<li><a href="#dynamic-programming">Dynamic Programming</a></li>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+					</nav>
+				</div>
+
+			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
+	<div class="article-content">
+		<p>This is a <a href="https://leetcode.com/problems/maximal-square/">LeetCode problem</a><sup class="print">L1</sup>.</p>
+<h1 id="problem-statement">Problem Statement<a href="#problem-statement" class="headerlink" title="Permanent link"></a></h1>
+<p>Given a 2D binary matrix filled with 0's and 1's, find the largest square containing all 1's and return its area.</p>
+<p>For example, given the following matrix:</p>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre>1 0 1 0 0
+1 0 1 1 1
+1 1 1 1 1
+1 0 0 1 0
+</pre></div>
+</td></tr></tbody></table>
+<p>Return 4.</p>
+<h3 id="clarifying-questions">Clarifying questions<a href="#clarifying-questions" class="headerlink" title="Permanent link"></a></h3>
+<ol>
+<li>Q: How is the median calculated when there are an even amount of elements?<br> <em>A: It is the average of the two middle elements</em>.<br></li>
+</ol>
+<h1 id="solututions">Solututions<a href="#solututions" class="headerlink" title="Permanent link"></a></h1>
+<p>All solutions assume a <span class="math">\(n\times m\)</span> matrix.</p>
+<h2 id="dynamic-programming">Dynamic Programming<a href="#dynamic-programming" class="headerlink" title="Permanent link"></a></h2>
+<ul>
+<li>Time: <span class="math">\(O(n\cdot m)\)</span></li>
+<li>Space: <span class="math">\(O(n\cdot m)\)</span></li>
+</ul>
+<p>The idea is to dynamic programming... Mention Kadane algorithm (link to it)</p>
+<h2 id="code">Code<a href="#code" class="headerlink" title="Permanent link"></a></h2>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></div></td><td class="code"><div class="highlight"><pre><span class="kt">int</span> <span class="nf">maximalSquare</span><span class="p">(</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">&gt;&gt;&amp;</span> <span class="n">matrix</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">matrix</span><span class="p">.</span><span class="n">size</span><span class="p">())</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="kt">size_t</span> <span class="n">maxSquare</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+  <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">size_t</span><span class="o">&gt;</span> <span class="o">&gt;</span> <span class="n">dp</span><span class="p">(</span><span class="n">matrix</span><span class="p">.</span><span class="n">size</span><span class="p">(),</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">size_t</span><span class="o">&gt;</span><span class="p">(</span><span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">(),</span> <span class="mi">0</span><span class="p">));</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">matrix</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">size</span><span class="p">();</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="sc">'1'</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">*=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="o">-</span><span class="mi">1</span><span class="p">])));</span>
+
+        <span class="n">maxSquare</span> <span class="o">=</span> <span class="n">max</span><span class="p">(</span><span class="n">maxSquare</span><span class="p">,</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span><span class="o">*</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">return</span> <span class="n">maxSquare</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</td></tr></tbody></table>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "true";
+
+    if (true) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+    
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: '[math]'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script><h2 class="print">Links</h2><div style="margin-left: 2.0em;" class="print"><ol class="print-links"><li>https://leetcode.com/problems/maximal-square/</li></ol></div>
+	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<section class="text-center footer">
+	<div>
+	    <p>&copy; <script>document.write(new Date().getFullYear());</script> Barry Steyn. This Website Is Private, Meant Only For The Author.
+	</div>
+</section>
+<!-- End Footer -->
+    <!-- End Sections -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var scrollspies = {};
+        scrollspies.body = {
+            'target': '#navigation-menu'
+        };
+
+		//Do not remove navbar-offset-start class
+	var navbarOffset = false;
+
+	//Scrollspy object
+    scrollspies.body = {
+        'target': '.toc'
+    };
+
+
+	$(function() {
+		$('#content div.article-content a[href^="http"').attr('target','_blank');
+	});
+    </script>
+    <script src="http://cs/theme/js/main.js"></script>
+    <!-- End JavaScript -->
+</body>
+
+</html>

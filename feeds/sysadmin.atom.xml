@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal</title><link href="http://doctrina.org/" rel="alternate"></link><link href="http://doctrina.org/feeds/sysadmin.atom.xml" rel="self"></link><id>http://doctrina.org/</id><updated>2015-07-05T00:00:00-07:00</updated><entry><title>Python Setup</title><link href="http://doctrina.org/python-setup.html" rel="alternate"></link><updated>2015-07-05T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-07-05:python-setup.html</id><summary type="html">&lt;h1 id="working-with-python"&gt;Working With Python&lt;a href="#working-with-python" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;In order to work with python, use a virtual environment. This requires installing
+&lt;em&gt;virtualenv&lt;/em&gt; and &lt;em&gt;virtualenvwrapper&lt;/em&gt;. The latter gives extra commands to
+&lt;em&gt;virutalenv&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="setup-virtual-environments"&gt;Setup Virtual Environments&lt;a href="#setup-virtual-environments" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="install-distribute-and-pip"&gt;Install Distribute and Pip&lt;a href="#install-distribute-and-pip" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;curl -O http://python-distribute.org/distribute_setup.py
+sudo python distribute_setup.py
+sudo easy_install pip
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id="install-virtualenv-and-virutalenvwrapper"&gt;Install VirtualEnv And VirutalEnvwrapper&lt;a href="#install-virtualenv-and-virutalenvwrapper" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id="setup-virtualenv"&gt;Setup VirtualEnv&lt;a href="#setup-virtualenv" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;export WORKON_HOME=~/.virtualenv&lt;/span&gt;
+&lt;span class="x"&gt;mkdir &lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;WORKON_HOME&lt;/span&gt;&lt;span class="x"&gt;&lt;/span&gt;
+&lt;span class="x"&gt;echo "export WORKON_HOME=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;WORKON_HOME&lt;/span&gt;&lt;span class="x"&gt;" &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id="setup-virtualenvwrapper"&gt;Setup VirtualEnvWrapper&lt;a href="#setup-virtualenvwrapper" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;echo "source /usr/local/bin/virtualenvwrapper.sh" &amp;gt;&amp;gt; ~/.bashrc
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3 id="extra-tips-and-tricks"&gt;Extra tips and tricks:&lt;a href="#extra-tips-and-tricks" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory"&gt;Ensures that if pip creates an extra virtual environment, it is also placed in our WORKON_HOME directory:&lt;a href="#ensures-that-if-pip-creates-an-extra-virtual-environment-it-is-also-placed-in-our-workon_home-directory" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="x"&gt;echo "export PIP_VIRTUALENV_BASE=&lt;/span&gt;&lt;span class="p"&gt;$&lt;/span&gt;&lt;span class="nv"&gt;WORKON_HOME&lt;/span&gt;&lt;span class="x"&gt;" &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id="creating-virtual-environments"&gt;Creating Virtual Environments&lt;a href="#creating-virtual-environments" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Obtain the version of the python executable that is needed (if the defaults are not wanted):&lt;/li&gt;
+&lt;li&gt;Use the &lt;a href="https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes"&gt;deadsnakes&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; PPA to get the required version&lt;/li&gt;
+&lt;li&gt;Manually get what version is wanted:&lt;ul&gt;
+&lt;li&gt;See &lt;a href="https://www.python.org/downloads/"&gt;https://www.python.org/downloads/&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; for the version that is wanted&lt;/li&gt;
+&lt;li&gt;Use wget to get the wanted version, for example, &lt;code&gt;wget http://python.org/ftp/python/2.7.5/Python-2.7.5.tgz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Untar, configure and make&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Create a new virtual environment with a new version of Python:&lt;/li&gt;
+&lt;li&gt;The default python executable is always chosen by default. To change this, use the &lt;code&gt;-p&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table class="highlighttable"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;mkvirutalenv -p /usr/bin/python2.6 env_name
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id="quick-command-reference"&gt;Quick Command Reference&lt;a href="#quick-command-reference" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lsvirtualenv&lt;/strong&gt; - lists all installed virtual environments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;rmvirtualenv&lt;/strong&gt; - will remove a virtual environment.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://launchpad.net/~fkrull/+archive/ubuntu/deadsnakes&lt;/li&gt;&lt;li&gt;https://www.python.org/downloads/&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="python"></category></entry><entry><title>EncFS</title><link href="http://doctrina.org/encfs.html" rel="alternate"></link><updated>2015-06-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-06-02:encfs.html</id><summary type="html">&lt;h1 id="encfs"&gt;EncFS&lt;a href="#encfs" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.arg0.net/#!encfs/c1awt"&gt;EncFS&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt;&lt;sup id="sf-encfs-1-back"&gt;&lt;a href="#sf-encfs-1" title="Wikipedia article:  http://en.wikipedia.org/wiki/EncFSL2" class="simple-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; is an encrypted FUSE file system. It
+integrates very well with dropbox allowing a local encrypted volume that will be
+replicated on the cloud. Unlike TrueCrypt, &lt;em&gt;encfs&lt;/em&gt; volumes are not a fixed size
+and can therefore grow and shrink when needed.&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation&lt;a href="#installation" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="ubuntu"&gt;Ubuntu&lt;a href="#ubuntu" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To install in ubuntu: &lt;code&gt;sudo apt-get install encfs&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="mac-os-yosemite"&gt;Mac OS Yosemite&lt;a href="#mac-os-yosemite" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Follow &lt;a href="http://imojito.com/encfs-mac-osx-10-10-yosemite.html"&gt;these instructions&lt;/a&gt;&lt;sup class="print"&gt;L3&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;a href="#usage" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;encfs /path/to/encrypted/folder /path/to/decrypted/mount&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="automatic-mount-on-login"&gt;Automatic Mount On Login&lt;a href="#automatic-mount-on-login" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id="ubuntu_1"&gt;Ubuntu&lt;a href="#ubuntu_1" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This involves installing &lt;a href=""&gt;gnome-encfs&lt;/a&gt;. For detailed instructions, see
+&lt;a href="https://help.ubuntu.com/community/FolderEncryption#Automatically_Mounting_on_Startup"&gt;this ubuntu community help article&lt;/a&gt;&lt;sup class="print"&gt;L4&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu community help - https://help.ubuntu.com/community/FolderEncryption&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;http://www.arg0.net/#!encfs/c1awt&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/EncFS&lt;/li&gt;&lt;li&gt;http://imojito.com/encfs-mac-osx-10-10-yosemite.html&lt;/li&gt;&lt;li&gt;https://help.ubuntu.com/community/FolderEncryption#Automatically_Mounting_on_Startup&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-encfs-1"&gt;Wikipedia article:
+ &lt;a href="http://en.wikipedia.org/wiki/EncFS"&gt;http://en.wikipedia.org/wiki/EncFS&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt; &lt;a href="#sf-encfs-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category><category term="cryptography"></category></entry><entry><title>Environment Variables</title><link href="http://doctrina.org/environment-variables.html" rel="alternate"></link><updated>2015-04-02T00:00:00-07:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2015-04-02:environment-variables.html</id><summary type="html">&lt;h1 id="environment-variables"&gt;Environment Variables&lt;a href="#environment-variables" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Environment variables are a set of dynamic named values that can affect the way running processes will behave on a computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;printenv&lt;/code&gt;&lt;br&gt;Lists environment variables in the current shell process&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;export ABC=XYZ&lt;/code&gt;&lt;br&gt;Creates environment variables ABC and sets it to XYZ. Using export means the variable will be available to all child processes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="common-environment-variables"&gt;Common Environment Variables&lt;a href="#common-environment-variables" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SHELL&lt;/code&gt;: This describes the shell that will be interpreting any commands you type in. In most cases, this will be bash by default, but other values can be set if you prefer other options.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TERM&lt;/code&gt;: This specifies the type of terminal to emulate when running the shell. Different hardware terminals can be emulated for different operating requirements&lt;sup id="sf-environment-variables-1-back"&gt;&lt;a href="#sf-environment-variables-1" title="See https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.htmlL1" class="simple-footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;USER&lt;/code&gt;: The current logged in user.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PWD&lt;/code&gt;: The current working directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OLDPWD&lt;/code&gt;: The previous working directory. This is kept by the shell in order to switch back to your previous directory by running cd -.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LS_COLORS&lt;/code&gt;: This defines color codes that are used to optionally add colored output to the ls command. This is used to distinguish different file types and provide more info to the user at a glance.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;MAIL&lt;/code&gt;: The path to the current user's mailbox.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PATH&lt;/code&gt;: A list of directories that the system will check when looking for commands. When a user types in a command, the system will check directories in this order for the executable.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LANG&lt;/code&gt;: The current language and localization settings, including character encoding.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HOME&lt;/code&gt;: The current user's home directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;_&lt;/code&gt;: The most recent previously executed command.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="links"&gt;Links&lt;a href="#links" title="Permanent link" class="headerlink"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Environment_variable"&gt;Wikipedia Entry For Environment Variables&lt;/a&gt;&lt;sup class="print"&gt;L2&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h2 class="print"&gt;Links&lt;/h2&gt;&lt;div style="margin-left: 2.0em;" class="print"&gt;&lt;ol class="print-links"&gt;&lt;li&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/li&gt;&lt;li&gt;http://en.wikipedia.org/wiki/Environment_variable&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;ol class="simple-footnotes"&gt;&lt;li id="sf-environment-variables-1"&gt;See &lt;a href="https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html"&gt;https://www.gnu.org/software/gettext/manual/html_node/The-TERM-variable.html&lt;/a&gt;&lt;sup class="print"&gt;L1&lt;/sup&gt; &lt;a href="#sf-environment-variables-1-back" class="simple-footnote-back"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</summary><category term="linux"></category><category term="sysadmin"></category></entry></feed>

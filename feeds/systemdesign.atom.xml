@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Personal</title><link href="http://doctrina.org/" rel="alternate"></link><link href="http://doctrina.org/feeds/systemdesign.atom.xml" rel="self"></link><id>http://doctrina.org/</id><updated>2016-01-27T00:00:00-08:00</updated><entry><title>Scalability Overview</title><link href="http://doctrina.org/scalability-overview.html" rel="alternate"></link><updated>2016-01-27T00:00:00-08:00</updated><author><name>Barry Steyn</name></author><id>tag:doctrina.org,2016-01-27:scalability-overview.html</id><summary type="html">
+&lt;p&gt;&lt;div class="videobox"&gt;
+&lt;iframe allowfullscreen="" frameborder="0" height="390" mozallowfullscreen="" src="https://www.youtube.com/embed/-W9F__D3oY4" webkitallowfullscreen="" width="640"&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;</summary><category term="Scalability"></category></entry></feed>

@@ -1,0 +1,215 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Presense Of Barry Steyn - Software Engineer, Entrepreneur">
+    <meta name="author" content="Barry Steyn">
+    <link rel="shortcut icon" href="theme/img/icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="theme/img/apple-touch-icon-144-precomposed.png">
+
+    <title>Personal - 	Git
+</title>
+
+    <!-- Bootstrap Base CSS -->
+    <link href="http://cs/theme/css/base.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="http://cs/theme/css/main.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,800|Source+Code+Pro" rel="stylesheet">
+
+<link rel="stylesheet" href="http://cs/theme/css/print.css" type="text/css" media="print" />
+</head>
+
+<body id="page-top">
+    <!-- Top Nav Bar -->
+    <nav id="navbar-top" class="navbar navbar-fixed-top navbar-offset-start " role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand hidden-grid-float-breakpoint" href="/index.html#page-top">
+                    <img alt="brand for doctrina" src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="float: left; max-height:100%;" />
+                    <span style="padding-left: 0.5em;">Personal</span>
+                </a>
+                
+                <button type="button" class="navbar-toggle" style="float: left; margin-left: 15px; margin-right: 0px;" data-toggle="collapse" data-target="#navigation-menu">
+<img src="http://cs/theme/img/apple-touch-icon-144-precomposed.png" style="max-height:1.0em; padding-right: 0.2em" />Personal                </button>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-menu-toc">
+                    Table Of Contents
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu">
+                        <div>
+                            <ul class="nav navbar-nav">
+<li class="visible-grid-float-breakpoint"><a href="/index.html">Home</a></li>                                <li><a href="category/technology.html"><span>Technologys</span></a></li> 
+                                <li><a href="#comments"><span>Comments</span></a></li> 
+                                <li><a href="#footer"><span>Connect</span></a></li> 
+                            </ul>
+                        </div>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navigation-menu-toc">
+	
+		<div class="visible-grid-float-breakpoint">
+					<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#git">Git</a><ul>
+<li><a href="#links">Links</a></li>
+</ul>
+</li>
+<li><a href="#config">Config</a></li>
+<li><a href="#git-commands">Git Commands</a><ul>
+<li><a href="#fixup-and-autosquash">Fixup and Autosquash</a><ul>
+<li><a href="#fixup">Fixup</a></li>
+<li><a href="#autosquash">Autosquash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+		</div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Top Nav Bar -->
+
+    <!-- User Defined Sections -->
+<section class="title">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1><a href="" rel="bookmark" title="Permalink to Git">	Git
+</a></h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="content">
+	<div class="container">
+		<div class="row">
+				<div class="col-xs-12 text-center metadata">
+					<ul class="center-list">
+						<li><b>Published</b>: 16  Mar  2015</li>
+					</ul>
+				</div>
+		</div>
+		<div class="row">
+				<div class="col-md-3  hidden-grid-float-breakpoint">
+					<nav id="toc-affix">
+								<div class="toc"><span class="toctitle">Table Of Contents</span><ul>
+<li><a href="#git">Git</a><ul>
+<li><a href="#links">Links</a></li>
+</ul>
+</li>
+<li><a href="#config">Config</a></li>
+<li><a href="#git-commands">Git Commands</a><ul>
+<li><a href="#fixup-and-autosquash">Fixup and Autosquash</a><ul>
+<li><a href="#fixup">Fixup</a></li>
+<li><a href="#autosquash">Autosquash</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+					</nav>
+				</div>
+
+			<div id="content" class="col-xs-12 col-sm-10 col-md-9 col-sm-offset-1 col-md-offset-0 ">
+	<div class="article-content">
+		<h1 id="git">Git<a href="#git" title="Permanent link" class="headerlink"></a></h1>
+<h2 id="links">Links<a href="#links" title="Permanent link" class="headerlink"></a></h2>
+<ul>
+<li><a href="http://git-scm.com/book/en/v2">Git Book</a><sup class="print">L1</sup> - The official Git book</li>
+<li><a href="http://git-scm.com/blog">Git Reset Demystified</a><sup class="print">L2</sup> - An incredibly illuminating article. Must Read for a better understanding</li>
+<li><a href="http://pcottle.github.io/learnGitBranching/">Interactive Tutorial For Learning Branching</a><sup class="print">L3</sup></li>
+</ul>
+<h1 id="config">Config<a href="#config" title="Permanent link" class="headerlink"></a></h1>
+<ul>
+<li><code>git config push.default current</code> - push the current branch to update a branch with the same name on the receiving end. Works in both central and non-central workflows. This will create a remote branch if it does not already exist</li>
+<li><code>git config remote.pushdefault current</code> - will push the branch to the origin remote by default (if not specified) and create if its not present</li>
+</ul>
+<h1 id="git-commands">Git Commands<a href="#git-commands" title="Permanent link" class="headerlink"></a></h1>
+<h2 id="fixup-and-autosquash">Fixup and Autosquash<a href="#fixup-and-autosquash" title="Permanent link" class="headerlink"></a></h2>
+<p>Squash last commit with a combination of <code>fixup</code> and <code>autosquash</code><sup id="sf-git-1-back"><a href="#sf-git-1" title="SourceL4" class="simple-footnote">1</a></sup></p>
+<h3 id="fixup">Fixup<a href="#fixup" title="Permanent link" class="headerlink"></a></h3>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>git add featureA
+<span class="nv">$ </span>git commit -m <span class="s2">"Feature A is done"</span>
+<span class="o">[</span>dev fb2f677<span class="o">]</span> Feature A is <span class="k">done</span>
+<span class="nv">$ </span>git add featureB
+<span class="nv">$ </span>git commit -m <span class="s2">"Feature B is done"</span>
+<span class="o">[</span>dev 733e2ff<span class="o">]</span> Feature B is <span class="k">done</span>
+</pre></div>
+</td></tr></tbody></table>
+<p>If something is added to featureA, use <code>fixup</code> with featureA's commit hash to have commit message copied:</p>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>git add featureA
+<span class="nv">$ </span>git commit --fixup fb2f677
+</pre></div>
+</td></tr></tbody></table>
+<p>Git has now automatically created a commit message with the word <em>fixup!</em> appended to featureA's original commit message.</p>
+<h3 id="autosquash">Autosquash<a href="#autosquash" title="Permanent link" class="headerlink"></a></h3>
+<p>Autosquash can now take place (the fixup step above is essential). Pick a hash to rebase, and do the following:</p>
+<table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span class="nv">$ </span>git rebase -i --autosquash ac5db87
+</pre></div>
+</td></tr></tbody></table>
+<p>The rebase editor has been opened - just save and quit.</p><h2 class="print">Links</h2><div style="margin-left: 2.0em;" class="print"><ol class="print-links"><li>http://git-scm.com/book/en/v2</li><li>http://git-scm.com/blog</li><li>http://pcottle.github.io/learnGitBranching/</li><li>http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html</li></ol></div><ol class="simple-footnotes"><li id="sf-git-1"><a href="http://fle.github.io/git-tip-keep-your-branch-clean-with-fixup-and-autosquash.html">Source</a><sup class="print">L4</sup> <a href="#sf-git-1-back" class="simple-footnote-back">↩</a></li></ol>
+	</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Footer -->
+<section class="text-center footer">
+	<div>
+	    <p>&copy; <script>document.write(new Date().getFullYear());</script> Barry Steyn. This Website Is Private, Meant Only For The Author.
+	</div>
+</section>
+<!-- End Footer -->
+    <!-- End Sections -->
+
+    <!-- JavaScript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var scrollspies = {};
+        scrollspies.body = {
+            'target': '#navigation-menu'
+        };
+
+		//Do not remove navbar-offset-start class
+	var navbarOffset = false;
+
+	//Scrollspy object
+    scrollspies.body = {
+        'target': '.toc'
+    };
+
+
+	$(function() {
+		$('#content div.article-content a[href^="http"').attr('target','_blank');
+	});
+    </script>
+    <script src="http://cs/theme/js/main.js"></script>
+    <!-- End JavaScript -->
+</body>
+
+</html>
