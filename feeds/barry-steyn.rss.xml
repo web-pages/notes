@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal</title><link>http://web-pages.github.io/notes/</link><description></description><atom:link href="http://web-pages.github.io/notes/feeds/barry-steyn.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 26 Feb 2016 00:00:00 -0800</lastBuildDate><item><title>Climbing Stairs</title><link>http://web-pages.github.io/notes/algorithm/climbing-stairs.html</link><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Interview Prep</title><link>http://web-pages.github.io/notes/</link><description></description><atom:link href="http://web-pages.github.io/notes/feeds/barry-steyn.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 26 Feb 2016 00:00:00 -0800</lastBuildDate><item><title>Climbing Stairs</title><link>http://web-pages.github.io/notes/algorithm/climbing-stairs.html</link><description>
 &lt;h1 id="problem-statement"&gt;Problem Statement&lt;a class="headerlink" href="#problem-statement" title="Permanent link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;You are climbing a stair case. It takes &lt;span class="math"&gt;\(n\)&lt;/span&gt; steps to reach to the top.&lt;/p&gt;
 &lt;p&gt;Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?&lt;/p&gt;
